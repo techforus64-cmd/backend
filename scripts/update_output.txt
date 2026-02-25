@@ -1,0 +1,132 @@
+﻿≡ƒôû Reading Excel file...
+Γ£à Extracted 16 zones for Shipshopy
+Γ£à Extracted 16 zones for Safexpress
+Γ£à Extracted 9382 ODA pincodes across 16 zones
+
+--- Safexpress Zone Analysis ---
+  N1: uniform 12
+  N3: uniform 12
+  N4: majority=12 (640x)
+    ΓåÆ Virtual zone "N4_17" = 17/kg (156 pincodes)
+    ΓåÆ Virtual zone "N4_150" = 150/kg (3 pincodes)
+  N2: uniform 12
+  E2: uniform 15
+  C2: majority=13 (722x)
+    ΓåÆ Virtual zone "C2_15" = 15/kg (252 pincodes)
+  W2: majority=14 (1628x)
+    ΓåÆ Virtual zone "W2_13" = 13/kg (1073 pincodes)
+  W1: majority=14 (256x)
+    ΓåÆ Virtual zone "W1_13" = 13/kg (167 pincodes)
+  S2: uniform 14
+  C1: majority=13 (84x)
+    ΓåÆ Virtual zone "C1_15" = 15/kg (38 pincodes)
+  S1: uniform 14
+  S3: uniform 14
+  S4: uniform 15
+  E1: uniform 15
+  NE2: majority=25 (815x)
+    ΓåÆ Virtual zone "NE2_20" = 20/kg (18 pincodes)
+    ΓåÆ Virtual zone "NE2_150" = 150/kg (2 pincodes)
+  NE1: uniform 20
+
+Γ£à Safexpress: 8 virtual zones, 1709 pincode overrides
+
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+≡ƒôª Updating SHIPSHOPY (Delhivery)...
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Zone rate changes:
+    N1ΓåÆN1: 7.798 ΓåÆ 7.5
+    N1ΓåÆN3: 9.506 ΓåÆ 9.2
+    N1ΓåÆN4: 10.122 ΓåÆ 9.8
+    N1ΓåÆN2: 8.876 ΓåÆ 8.6
+    N1ΓåÆE2: 14.028 ΓåÆ 15.5
+    N1ΓåÆC2: 12.46 ΓåÆ 12
+    N1ΓåÆW2: 13.3 ΓåÆ 12.5
+    N1ΓåÆW1: 11.69 ΓåÆ 11.3
+    N1ΓåÆS2: 16.9 ΓåÆ 13.2
+    N1ΓåÆC1: 11.9 ΓåÆ 11.1
+    N1ΓåÆS1: 15.9 ΓåÆ 13
+    N1ΓåÆS3: 17.36 ΓåÆ 14.7
+    N1ΓåÆS4: 18.48 ΓåÆ 14.7
+    N1ΓåÆE1: 14.84 ΓåÆ 14.7
+    N1ΓåÆNE2: 26.964 ΓåÆ 26.1
+    N1ΓåÆNE1: 23.38 ΓåÆ 22.1
+  ODA pincodes: populated 9382 across 19 zones
+≡ƒÆ╛ Saved: C:\Users\FORUS\Downloads\aeiou (3)\aeiou\backend\data\utsf\6968ddedc2cf85d3f4380d52.utsf.json
+
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+≡ƒôª Updating SAFEXPRESS...
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Zone rate changes:
+    N1ΓåÆN1: 5.75 ΓåÆ 12
+    N1ΓåÆN3: 8.25 ΓåÆ 12
+    N1ΓåÆN4: 9 ΓåÆ 12
+    N1ΓåÆN2: 6.75 ΓåÆ 12
+    N1ΓåÆE2: 10.5 ΓåÆ 15
+    N1ΓåÆC2: 8.5 ΓåÆ 13
+    N1ΓåÆW2: 11 ΓåÆ 14
+    N1ΓåÆW1: 10 ΓåÆ 14
+    N1ΓåÆS2: 12.5 ΓåÆ 14
+    N1ΓåÆC1: 8 ΓåÆ 13
+    N1ΓåÆS1: 12 ΓåÆ 14
+    N1ΓåÆS3: 13 ΓåÆ 14
+    N1ΓåÆS4: 13.5 ΓåÆ 15
+    N1ΓåÆE1: 10 ΓåÆ 15
+    N1ΓåÆNE2: 15 ΓåÆ 25
+    N1ΓåÆNE1: 14 ΓåÆ 20
+    N1ΓåÆN4_17 (virtual): 17
+    N1ΓåÆN4_150 (virtual): 150
+    N1ΓåÆC2_15 (virtual): 15
+    N1ΓåÆW2_13 (virtual): 13
+    N1ΓåÆW1_13 (virtual): 13
+    N1ΓåÆC1_15 (virtual): 15
+    N1ΓåÆNE2_20 (virtual): 20
+    N1ΓåÆNE2_150 (virtual): 150
+  Zone overrides: 1709 pincodes mapped to virtual zones
+  Serviceability: added zone N2 (was missing or NOT_SERVED)
+  Serviceability: added zone N3 (was missing or NOT_SERVED)
+  Serviceability: added zone N4 (was missing or NOT_SERVED)
+  Serviceability: added zone C2 (was missing or NOT_SERVED)
+  Serviceability: added zone W2 (was missing or NOT_SERVED)
+  Serviceability: added zone S2 (was missing or NOT_SERVED)
+  Serviceability: added zone S3 (was missing or NOT_SERVED)
+  Serviceability: added zone S4 (was missing or NOT_SERVED)
+  Serviceability: added zone E2 (was missing or NOT_SERVED)
+  Serviceability: added zone NE2 (was missing or NOT_SERVED)
+  ODA pincodes: populated 9382 across 16 zones
+≡ƒÆ╛ Saved: C:\Users\FORUS\Downloads\aeiou (3)\aeiou\backend\data\utsf\6870d8765f9c12f692f3b7b3.utsf.json
+
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+≡ƒôª Updating DELHIVERY LITE...
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Zone rate changes:
+    N1ΓåÆN1: 5.8 ΓåÆ 7.5
+    N1ΓåÆN3: 7 ΓåÆ 9.2
+    N1ΓåÆN4: 8.1 ΓåÆ 9.8
+    N1ΓåÆN2: 6.6 ΓåÆ 8.6
+    N1ΓåÆE2: 12.1 ΓåÆ 15.5
+    N1ΓåÆC2: 9.5 ΓåÆ 12
+    N1ΓåÆW2: 9.6 ΓåÆ 12.5
+    N1ΓåÆW1: 8.9 ΓåÆ 11.3
+    N1ΓåÆS2: 12.3 ΓåÆ 13.2
+    N1ΓåÆC1: 8.4 ΓåÆ 11.1
+    N1ΓåÆS1: 13.5 ΓåÆ 13
+    N1ΓåÆS3: 13.1 ΓåÆ 14.7
+    N1ΓåÆS4: 14.4 ΓåÆ 14.7
+    N1ΓåÆE1: 11.3 ΓåÆ 14.7
+    N1ΓåÆNE2: 20 ΓåÆ 26.1
+    N1ΓåÆNE1: 16.6 ΓåÆ 22.1
+  ODA pincodes: populated 9382 across 19 zones
+≡ƒÆ╛ Saved: C:\Users\FORUS\Downloads\aeiou (3)\aeiou\backend\data\utsf\68663285ae45acbf7506f352.utsf.json
+
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+Γ£à ALL UPDATES COMPLETE
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+
+Expected results for pincode 689703 (S4, ODA=Yes), 800 kg:
+  Shipshopy: Base=11760 + Docket=100 + ODA=2300 = 14160
+  Safexpress: Base=12000 + Fuel=400 + Docket=350 + ROV=100 + ODA=500 = 13350
+
+Expected results for pincode 226010 (N3, ODA=No), 2500 kg:
+  Shipshopy: Base=23000 + Docket=100 = 23100
+  Safexpress: Base=30000 + Fuel=400 + Docket=350 + ROV=100 = 30850

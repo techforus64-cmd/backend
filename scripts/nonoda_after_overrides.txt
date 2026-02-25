@@ -1,0 +1,377 @@
+﻿[UTSF] Loaded 23937 pincodes
+[UTSF] Loading 12 UTSF files from C:\Users\FORUS\Downloads\aeiou (3)\aeiou\backend\data\utsf
+[UTSF-BOOT] "Delhivery (VL Cargo)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery (VL Cargo) (21339 pincodes)
+[UTSF-BOOT] "DB Schenker" | served=20231 | exceptions=0 (soft=0) | integrityMode=STRICT
+[UTSF] Loaded: DB Schenker (20231 pincodes)
+[UTSF-BOOT] "Rivigo" | served=3 | exceptions=457 (soft=2) | integrityMode=STRICT
+[UTSF] Loaded: Rivigo (0 pincodes)
+[UTSF-BOOT] "DP World" | served=1727 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: DP World (14792 pincodes)
+[UTSF-BOOT] "DTDC" | served=1727 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: DTDC (7122 pincodes)
+[UTSF-BOOT] "Delhivery Lite" | served=22949 | exceptions=935 (soft=182) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery Lite (22161 pincodes)
+[UTSF-BOOT] "Ekart" | served=1775 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: Ekart (14687 pincodes)
+[UTSF-BOOT] "Safexpress" | served=23819 | exceptions=19 (soft=19) | integrityMode=STRICT
+[UTSF] Loaded: Safexpress (20241 pincodes)
+[UTSF-BOOT] "Gati" | served=8598 | exceptions=840 (soft=74) | integrityMode=STRICT
+[UTSF] Loaded: Gati (19428 pincodes)
+[UTSF-BOOT] "CARGO PLANET" | served=575 | exceptions=2 (soft=2) | integrityMode=STRICT
+[UTSF] Loaded: CARGO PLANET (15292 pincodes)
+[UTSF-BOOT] "Delhivery (Shipshopy)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery (Shipshopy) (21339 pincodes)
+[UTSF-BOOT] "Grabs" | served=3 | exceptions=783 (soft=6) | integrityMode=STRICT
+[UTSF] Loaded: Grabs (0 pincodes)
+[UTSF] Successfully loaded 12 transporters
+[UTSF-BOOT] "Delhivery (Shipshopy)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+[UTSF-BOOT] "Safexpress" | served=23819 | exceptions=19 (soft=19) | integrityMode=STRICT
+[UTSF-BOOT] "DB Schenker" | served=20231 | exceptions=0 (soft=0) | integrityMode=STRICT
+[UTSF-BOOT] "Delhivery (VL Cargo)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+
+
+======================================================================
+  NON-ODA Verification: 10 Routes ├ù 4 Vendors = 40 Tests
+  Origin: 110020 (Delhi, N1)
+======================================================================
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ Test 1: 110020 ΓåÆ 141001 (Ludhiana, Punjab) | Zone: N2 | 50 kg
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Shipshopy      Γ£à Γé╣530 = Excel Γé╣530
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Safexpress     Γ£à Γé╣1080 = Excel Γé╣1080
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker    Γ¥î Γé╣516.25 Γëá Excel Γé╣415 (diff: 101.25)
+    UTSF: base=Γé╣325, fuel=Γé╣16.25, docket=Γé╣100, ODA=Γé╣0, ROV=Γé╣0
+    Excel: base=Γé╣300, fuel=Γé╣15, docket=Γé╣100
+    Zones: N1 ΓåÆ N2, isOda=false
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  VL Cargo       Γ£à Γé╣900 = Excel Γé╣900
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ Test 2: 110020 ΓåÆ 121103 (Palwal, Haryana) | Zone: N3 | 100 kg
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Shipshopy      Γ£à Γé╣1020 = Excel Γé╣1020
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Safexpress     Γ£à Γé╣1710 = Excel Γé╣1710
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker    Γ¥î Γé╣1632.5 Γëá Excel Γé╣782.5 (diff: 850.00)
+    UTSF: base=Γé╣650, fuel=Γé╣32.5, docket=Γé╣100, ODA=Γé╣850, ROV=Γé╣0
+    Excel: base=Γé╣650, fuel=Γé╣32.5, docket=Γé╣100
+    Zones: N1 ΓåÆ N3, isOda=true
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  VL Cargo       Γ£à Γé╣1800 = Excel Γé╣1800
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ Test 3: 110020 ΓåÆ 171007 (Shimla, Himachal Pradesh) | Zone: N4 | 200 kg
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Shipshopy      Γ£à Γé╣2060 = Excel Γé╣2060
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Safexpress     Γ£à Γé╣2970 = Excel Γé╣2970
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker    Γ£à Γé╣1801 = Excel Γé╣1801
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  VL Cargo       Γ£à Γé╣3600 = Excel Γé╣3600
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ Test 4: 110020 ΓåÆ 452001 (Indore, Madhya Pradesh) | Zone: C1 | 500 kg
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Shipshopy      Γ£à Γé╣5650 = Excel Γé╣5650
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Safexpress     Γ£à Γé╣7275 = Excel Γé╣7275
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker    Γ£à Γé╣4615 = Excel Γé╣4615
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  VL Cargo       Γ£à Γé╣9000 = Excel Γé╣9000
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ Test 5: 110020 ΓåÆ 284201 (Niwari, Madhya Pradesh) | Zone: C2 | 800 kg
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Shipshopy      ΓÇö FAIL (UTSF error: Destination 284201: Pincode is an exception in zone N3, Excel expects Γé╣9700)
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Safexpress     Γ¥î Γé╣10450 Γëá Excel Γé╣11250 (diff: 800.00)
+    UTSF: base=Γé╣9600, fuel=Γé╣400, docket=Γé╣350, ODA=Γé╣0, ROV=Γé╣100
+    Excel: base=Γé╣10400, fuel=Γé╣400, docket=Γé╣450
+    Zones: N1 ΓåÆ N3, isOda=false
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker    Γ¥î Γé╣8760 Γëá Excel Γé╣7660 (diff: 1100.00)
+    UTSF: base=Γé╣5200, fuel=Γé╣260, docket=Γé╣100, ODA=Γé╣3200, ROV=Γé╣0
+    Excel: base=Γé╣7200, fuel=Γé╣360, docket=Γé╣100
+    Zones: N1 ΓåÆ N3, isOda=true
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  VL Cargo       ΓÇö FAIL (UTSF error: Destination 284201: Pincode is an exception in zone N3, Excel expects Γé╣14400)
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ Test 6: 110020 ΓåÆ 380001 (Ahmedabad, Gujarat) | Zone: W1 | 1500 kg
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Shipshopy      Γ£à Γé╣17050 = Excel Γé╣17050
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Safexpress     Γ£à Γé╣20350 = Excel Γé╣20350
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker    Γ£à Γé╣12857.5 = Excel Γé╣12857.5
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  VL Cargo       Γ£à Γé╣27000 = Excel Γé╣27000
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ Test 7: 110020 ΓåÆ 360001 (Rajkot, Gujarat) | Zone: W2 | 2500 kg
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Shipshopy      Γ£à Γé╣31350 = Excel Γé╣31350
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Safexpress     Γ£à Γé╣33350 = Excel Γé╣33350
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker    Γ£à Γé╣25037.5 = Excel Γé╣25037.5
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  VL Cargo       Γ£à Γé╣45000 = Excel Γé╣45000
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ Test 8: 110020 ΓåÆ 500001 (Hyderabad, Telangana) | Zone: S1 | 3000 kg
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Shipshopy      Γ£à Γé╣39100 = Excel Γé╣39100
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Safexpress     Γ£à Γé╣42850 = Excel Γé╣42850
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker    Γ£à Γé╣33175 = Excel Γé╣33175
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  VL Cargo       Γ£à Γé╣54000 = Excel Γé╣54000
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ Test 9: 110020 ΓåÆ 431731 (Bodhan, Telangana) | Zone: S2 | 5000 kg
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Shipshopy      Γ£à Γé╣66100 = Excel Γé╣66100
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Safexpress     Γ£à Γé╣70850 = Excel Γé╣70850
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker    Γ¥î Γé╣49975 Γëá Excel Γé╣55225 (diff: 5250.00)
+    UTSF: base=Γé╣47500, fuel=Γé╣2375, docket=Γé╣100, ODA=Γé╣0, ROV=Γé╣0
+    Excel: base=Γé╣52500, fuel=Γé╣2625, docket=Γé╣100
+    Zones: N1 ΓåÆ W2, isOda=false
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  VL Cargo       Γ£à Γé╣90000 = Excel Γé╣90000
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ Test 10: 110020 ΓåÆ 700001 (Kolkata, West Bengal) | Zone: E1 | 10000 kg
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Shipshopy      Γ£à Γé╣147100 = Excel Γé╣147100
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Safexpress     Γ£à Γé╣150850 = Excel Γé╣150850
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker    Γ£à Γé╣110350 = Excel Γé╣110350
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  VL Cargo       Γ£à Γé╣180000 = Excel Γé╣180000
+
+
+======================================================================
+  RESULTS: 33 PASSED, 7 FAILED
+======================================================================

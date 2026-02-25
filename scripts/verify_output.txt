@@ -1,0 +1,106 @@
+﻿[UTSF] Loaded 23937 pincodes
+[UTSF] Loading 10 UTSF files from C:\Users\FORUS\Downloads\aeiou (3)\aeiou\backend\data\utsf
+[UTSF-BOOT] "Rivigo" | served=3 | exceptions=457 (soft=2) | integrityMode=STRICT
+[UTSF] Loaded: Rivigo (0 pincodes)
+[UTSF-BOOT] "DP World" | served=1727 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: DP World (14792 pincodes)
+[UTSF-BOOT] "DTDC" | served=1727 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: DTDC (7122 pincodes)
+[UTSF-BOOT] "Delhivery Lite" | served=22949 | exceptions=935 (soft=182) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery Lite (22161 pincodes)
+[UTSF-BOOT] "Ekart" | served=1775 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: Ekart (14687 pincodes)
+[UTSF-BOOT] "Safexpress" | served=23819 | exceptions=19 (soft=19) | integrityMode=STRICT
+[UTSF] Loaded: Safexpress (20241 pincodes)
+[UTSF-BOOT] "Gati" | served=8598 | exceptions=840 (soft=74) | integrityMode=STRICT
+[UTSF] Loaded: Gati (19428 pincodes)
+[UTSF-BOOT] "CARGO PLANET" | served=575 | exceptions=2 (soft=2) | integrityMode=STRICT
+[UTSF] Loaded: CARGO PLANET (15292 pincodes)
+[UTSF-BOOT] "Delhivery (Shipshopy)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery (Shipshopy) (21339 pincodes)
+[UTSF-BOOT] "Grabs" | served=3 | exceptions=783 (soft=6) | integrityMode=STRICT
+[UTSF] Loaded: Grabs (0 pincodes)
+[UTSF] Successfully loaded 10 transporters
+Loaded 23937 master pincodes
+Sample: 110020 ΓåÆ N1, 689703 ΓåÆ S4, 226010 ΓåÆ N3
+[UTSF-BOOT] "Delhivery (Shipshopy)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+[UTSF-BOOT] "Safexpress" | served=23819 | exceptions=19 (soft=19) | integrityMode=STRICT
+[UTSF-BOOT] "Delhivery Lite" | served=22949 | exceptions=935 (soft=182) | integrityMode=STRICT
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  UTSF vs Excel Verification Report
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+
+--- Shipshopy ΓåÆ 689703 (S4, ODA) ---
+  Route: 110020 ΓåÆ 689703, Weight: 800 kg, Invoice: Γé╣1
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Γé╣14160
+    Breakdown: Base=Γé╣11760, Fuel=Γé╣undefined, Docket=Γé╣undefined, ODA=Γé╣undefined, ROV=Γé╣undefined
+  Γ£à PASS: Total Γé╣14160 matches Excel Γé╣14160
+  Γ¥î ODA: Γé╣undefined Γëá expected Γé╣2300
+
+--- Safexpress ΓåÆ 689703 (S4, ODA) ---
+  Route: 110020 ΓåÆ 689703, Weight: 800 kg, Invoice: Γé╣1
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Γé╣13350
+    Breakdown: Base=Γé╣12000, Fuel=Γé╣undefined, Docket=Γé╣undefined, ODA=Γé╣undefined, ROV=Γé╣undefined
+  Γ£à PASS: Total Γé╣13350 matches Excel Γé╣13350
+  Γ¥î ODA: Γé╣undefined Γëá expected Γé╣500
+
+--- Shipshopy ΓåÆ 226010 (N3, no ODA) ---
+  Route: 110020 ΓåÆ 226010, Weight: 2500 kg, Invoice: Γé╣1
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Γé╣23100
+    Breakdown: Base=Γé╣23000, Fuel=Γé╣undefined, Docket=Γé╣undefined, ODA=Γé╣undefined, ROV=Γé╣undefined
+  Γ£à PASS: Total Γé╣23100 matches Excel Γé╣23100
+  Γ£à ODA: Γé╣undefined matches expected Γé╣0
+
+--- Safexpress ΓåÆ 226010 (N3, no ODA) ---
+  Route: 110020 ΓåÆ 226010, Weight: 2500 kg, Invoice: Γé╣1
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Γé╣30850
+    Breakdown: Base=Γé╣30000, Fuel=Γé╣undefined, Docket=Γé╣undefined, ODA=Γé╣undefined, ROV=Γé╣undefined
+  Γ£à PASS: Total Γé╣30850 matches Excel Γé╣30850
+  Γ£à ODA: Γé╣undefined matches expected Γé╣0
+
+--- Delhivery Lite ΓåÆ 226010 (N3, no ODA) ---
+  Route: 110020 ΓåÆ 226010, Weight: 2500 kg, Invoice: Γé╣1
+[UTSF DIAG] Delhivery Lite checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Γé╣25953.5
+    Breakdown: Base=Γé╣23000, Fuel=Γé╣undefined, Docket=Γé╣undefined, ODA=Γé╣undefined, ROV=Γé╣undefined
+
+--- ODA Detection Checks ---
+  Shipshopy 689703: isOda=true, zone=S4
+  Safexpress 689703: isOda=true, zone=S4
+  Shipshopy 226010: isOda=false, zone=N3
+
+--- Safexpress Zone Override Checks ---
+  400001: zone=W1, transporterZone=null
+
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Results: 4 passed, 0 failed
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ

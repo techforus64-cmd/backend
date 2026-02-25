@@ -1,0 +1,490 @@
+{
+  "version": "3.0",
+  "generatedAt": "2026-02-03T09:51:58.137585Z",
+  "sourceFormat": "mongodb",
+  "meta": {
+    "id": "695e1d6605f8bef671948a55",
+    "companyName": "CARGO PLANET",
+    "vendorCode": null,
+    "customerID": null,
+    "transporterType": "regular",
+    "transportMode": "LTL",
+    "gstNo": null,
+    "address": null,
+    "state": null,
+    "city": null,
+    "pincode": "",
+    "rating": 4,
+    "isVerified": false,
+    "approvalStatus": "pending",
+    "createdAt": "2026-02-03T09:51:58.137585Z",
+    "updatedAt": "2026-02-03T09:51:58.137585Z",
+    "created": {
+      "by": "SYSTEM_REPAIR_BOT",
+      "at": "2026-02-03T09:51:58.137585Z",
+      "source": "mongodb"
+    },
+    "version": "3.0.0",
+    "updateCount": 4,
+    "integrityMode": "STRICT"
+  },
+  "pricing": {
+    "priceRate": {
+      "minWeight": 22,
+      "docketCharges": 22,
+      "fuel": 2,
+      "divisor": 1,
+      "kFactor": 4800,
+      "minCharges": 44,
+      "greenTax": 44,
+      "daccCharges": 44,
+      "miscCharges": 44,
+      "rovCharges": {
+        "v": 2,
+        "f": 0
+      },
+      "insuranceCharges": {
+        "v": 0,
+        "f": 0
+      },
+      "odaCharges": {
+        "v": 2,
+        "f": 0
+      },
+      "codCharges": {
+        "v": 2,
+        "f": 0
+      },
+      "prepaidCharges": {
+        "v": 2,
+        "f": 0
+      },
+      "topayCharges": {
+        "v": 2,
+        "f": 0
+      },
+      "handlingCharges": {
+        "v": 2,
+        "f": 0
+      },
+      "fmCharges": {
+        "v": 2,
+        "f": 0
+      },
+      "appointmentCharges": {
+        "v": 2,
+        "f": 0
+      },
+      "invoiceValueCharges": null
+    },
+    "zoneRates": {
+      "N1": {
+        "N1": 4,
+        "N2": 9,
+        "N3": 9,
+        "N4": 9,
+        "E1": 9,
+        "E2": 9,
+        "S1": 9,
+        "S2": 9,
+        "S3": 9,
+        "S4": 9,
+        "W1": 9,
+        "W2": 9,
+        "C1": 9,
+        "C2": 9
+      },
+      "N2": {
+        "N1": 99,
+        "N2": 4,
+        "N3": 9,
+        "N4": 9,
+        "E1": 9,
+        "E2": 9,
+        "S1": 9,
+        "S2": 9,
+        "S3": 9,
+        "S4": 9,
+        "W1": 9,
+        "W2": 99,
+        "C1": 9,
+        "C2": 9
+      },
+      "N3": {
+        "N1": 9,
+        "N2": 9,
+        "N3": 9,
+        "N4": 9,
+        "E1": 9,
+        "E2": 9,
+        "S1": 9,
+        "S2": 9,
+        "S3": 9,
+        "S4": 9,
+        "W1": 9,
+        "W2": 9,
+        "C1": 9,
+        "C2": 9
+      },
+      "N4": {
+        "N1": 9,
+        "N2": 9,
+        "N3": 9,
+        "N4": 9,
+        "E1": 9,
+        "E2": 9,
+        "S1": 9,
+        "S2": 9,
+        "S3": 9,
+        "S4": 9,
+        "W1": 99,
+        "W2": 9,
+        "C1": 9,
+        "C2": 99
+      },
+      "E1": {
+        "N1": 9,
+        "N2": 9,
+        "N3": 9,
+        "N4": 9,
+        "E1": 99,
+        "E2": 9,
+        "S1": 9,
+        "S2": 9,
+        "S3": 9,
+        "S4": 99,
+        "W1": 9,
+        "W2": 9,
+        "C1": 9,
+        "C2": 9
+      },
+      "E2": {
+        "N1": 9,
+        "N2": 9,
+        "N3": 9,
+        "N4": 99,
+        "E1": 9,
+        "E2": 9,
+        "S1": 0,
+        "S2": 99,
+        "S3": 9,
+        "S4": 4,
+        "W1": 4,
+        "W2": 9,
+        "C1": 9,
+        "C2": 8
+      },
+      "S1": {
+        "N1": 8,
+        "N2": 8,
+        "N3": 8,
+        "N4": 88,
+        "E1": 8,
+        "E2": 8,
+        "S1": 8,
+        "S2": 8,
+        "S3": 88,
+        "S4": 8,
+        "W1": 8,
+        "W2": 8,
+        "C1": 8,
+        "C2": 8
+      },
+      "S2": {
+        "N1": 8,
+        "N2": 8,
+        "N3": 8,
+        "N4": 8,
+        "E1": 8,
+        "E2": 8,
+        "S1": 88,
+        "S2": 4,
+        "S3": 8,
+        "S4": 8,
+        "W1": 88,
+        "W2": 8,
+        "C1": 8,
+        "C2": 4
+      },
+      "S3": {
+        "N1": 8,
+        "N2": 8,
+        "N3": 8,
+        "N4": 4,
+        "E1": 88,
+        "E2": 8,
+        "S1": 8,
+        "S2": 8,
+        "S3": 88,
+        "S4": 8,
+        "W1": 8,
+        "W2": 8,
+        "C1": 8,
+        "C2": 8
+      },
+      "S4": {
+        "N1": 8,
+        "N2": 8,
+        "N3": 88,
+        "N4": 8,
+        "E1": 88,
+        "E2": 8,
+        "S1": 8,
+        "S2": 8,
+        "S3": 8,
+        "S4": 8888,
+        "W1": 8,
+        "W2": 8,
+        "C1": 88,
+        "C2": 8
+      },
+      "W1": {
+        "N1": 88,
+        "N2": 8,
+        "N3": 88,
+        "N4": 8,
+        "E1": 88,
+        "E2": 8,
+        "S1": 8,
+        "S2": 8,
+        "S3": 88,
+        "S4": 8,
+        "W1": 8,
+        "W2": 88,
+        "C1": 8,
+        "C2": 88
+      },
+      "W2": {
+        "N1": 8,
+        "N2": 8,
+        "N3": 88,
+        "N4": 8,
+        "E1": 44,
+        "E2": 8,
+        "S1": 8,
+        "S2": 8,
+        "S3": 8,
+        "S4": 88,
+        "W1": 8,
+        "W2": 88,
+        "C1": 44,
+        "C2": 88
+      },
+      "C1": {
+        "N1": 88,
+        "N2": 8,
+        "N3": 88,
+        "N4": 8,
+        "E1": 88,
+        "E2": 8,
+        "S1": 88,
+        "S2": 88,
+        "S3": 8,
+        "S4": 8,
+        "W1": 8,
+        "W2": 88,
+        "C1": 8888,
+        "C2": 88
+      },
+      "C2": {
+        "N1": 888,
+        "N2": 88,
+        "N3": 88,
+        "N4": 888,
+        "E1": 8,
+        "E2": 88,
+        "S1": 888,
+        "S2": 88,
+        "S3": 888,
+        "S4": 88,
+        "W1": 888,
+        "W2": 88,
+        "C1": 88,
+        "C2": 88
+      }
+    }
+  },
+  "serviceability": {
+    "N1": {
+      "mode": "FULL_MINUS_EXCEPT",
+      "totalInZone": 409,
+      "servedCount": 407,
+      "coveragePercent": 99.51,
+      "exceptSingles": [],
+      "exceptRanges": [],
+      "softExclusions": [
+        201022,
+        302048
+      ]
+    },
+    "N2": {
+      "mode": "FULL_ZONE",
+      "totalInZone": 95,
+      "servedCount": 2281,
+      "coveragePercent": 2401.05,
+      "exceptSingles": [],
+      "softExclusions": []
+    },
+    "N3": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 3727,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "N4": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 932,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "S1": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 478,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "S2": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 3177,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "S3": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 2196,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "S4": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 1757,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "E1": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 296,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "E2": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 3335,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "W1": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 397,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "W2": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 2700,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "C1": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 130,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "C2": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 925,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "NE1": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 45,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "NE2": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 872,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "X1": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 22,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "X2": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 9,
+      "servedCount": 0,
+      "coveragePercent": 0
+    },
+    "X3": {
+      "mode": "NOT_SERVED",
+      "totalInZone": 14,
+      "servedCount": 0,
+      "coveragePercent": 0
+    }
+  },
+  "oda": {
+    "N1": {
+      "odaRanges": [],
+      "odaSingles": [],
+      "odaCount": 0
+    },
+    "N2": {
+      "odaRanges": [],
+      "odaSingles": [],
+      "odaCount": 0
+    }
+  },
+  "stats": {
+    "totalPincodes": 15292,
+    "totalZones": 2,
+    "odaCount": 0,
+    "coverageByRegion": {
+      "North": 15292,
+      "South": 0,
+      "East": 0,
+      "West": 0,
+      "Central": 0,
+      "North East": 0,
+      "Special": 0
+    },
+    "avgCoveragePercent": 293.8,
+    "dataCompleteness": 100,
+    "complianceScore": 0.0241
+  },
+  "updates": [
+    {
+      "timestamp": "2026-02-12T08:45:34.529Z",
+      "editorId": "SYSTEM_REPAIR_BOT",
+      "reason": "Repair Script Fix",
+      "changeSummary": "Injected meta.created governance header; Set meta.version to 3.0.0; Initialized meta.updateCount; Initialized updates[] audit trail",
+      "snapshot": null
+    },
+    {
+      "timestamp": "2026-02-12T11:20:59.853Z",
+      "editorId": "SYSTEM_REPAIR_BOT",
+      "reason": "Repair Script Fix",
+      "changeSummary": "Enabled Strict Mode (integrityMode=STRICT)",
+      "snapshot": null
+    },
+    {
+      "timestamp": "2026-02-12T11:32:13.282Z",
+      "editorId": "GLOBAL_EXCLUSION_SCRIPT",
+      "reason": "Batch inject global exclusion pincodes",
+      "changeSummary": "Added 2 exclusion pincodes across 1 zones",
+      "snapshot": null
+    },
+    {
+      "timestamp": "2026-02-12T11:41:52.917Z",
+      "editorId": "SOFT_EXCLUSION_MIGRATION",
+      "reason": "Migrated temporary exclusions from exceptSingles to softExclusions",
+      "changeSummary": "Moved 2 pincodes to softExclusions",
+      "snapshot": null
+    }
+  ]
+}

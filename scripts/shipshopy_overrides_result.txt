@@ -1,0 +1,65 @@
+﻿Master pincodes loaded: 23937
+
+Zone overrides to apply: 443
+
+Override patterns:
+  E2ΓåÆE1: 44 pincodes
+  W2ΓåÆW1: 38 pincodes
+  N1ΓåÆN3: 33 pincodes
+  E1ΓåÆE2: 33 pincodes
+  N3ΓåÆN1: 32 pincodes
+  W1ΓåÆW2: 31 pincodes
+  C1ΓåÆC2: 31 pincodes
+  N2ΓåÆN3: 20 pincodes
+  S2ΓåÆS1: 20 pincodes
+  N3ΓåÆW2: 17 pincodes
+  S3ΓåÆS1: 16 pincodes
+  S1ΓåÆS2: 14 pincodes
+  N3ΓåÆN4: 13 pincodes
+  C2ΓåÆC1: 12 pincodes
+  N3ΓåÆN2: 9 pincodes
+  S1ΓåÆS3: 9 pincodes
+  W2ΓåÆC2: 7 pincodes
+  N2ΓåÆN4: 6 pincodes
+  N4ΓåÆN3: 5 pincodes
+  N4ΓåÆN2: 4 pincodes
+  N3ΓåÆC2: 4 pincodes
+  NE1ΓåÆNE2: 4 pincodes
+  NE2ΓåÆNE1: 4 pincodes
+  N4ΓåÆN1: 3 pincodes
+  X3ΓåÆN4: 3 pincodes
+  S2ΓåÆW2: 3 pincodes
+  W2ΓåÆS2: 3 pincodes
+  S2ΓåÆS3: 3 pincodes
+  C2ΓåÆN3: 2 pincodes
+  S2ΓåÆE2: 2 pincodes
+  S4ΓåÆS3: 2 pincodes
+  S3ΓåÆS4: 2 pincodes
+  X1ΓåÆNE2: 2 pincodes
+  N1ΓåÆN4: 1 pincodes
+  N3ΓåÆE2: 1 pincodes
+  N1ΓåÆW1: 1 pincodes
+  N3ΓåÆW1: 1 pincodes
+  N1ΓåÆW2: 1 pincodes
+  E2ΓåÆC2: 1 pincodes
+  S2ΓåÆC2: 1 pincodes
+  C2ΓåÆW2: 1 pincodes
+  S3ΓåÆS2: 1 pincodes
+  E2ΓåÆS2: 1 pincodes
+  E2ΓåÆNE2: 1 pincodes
+  X1ΓåÆE1: 1 pincodes
+
+Γ£à Updated C:\Users\FORUS\Downloads\aeiou (3)\aeiou\backend\data\utsf\6968ddedc2cf85d3f4380d52.utsf.json
+   Added 443 zone overrides
+
+Sample overrides:
+  121102: master=N3 ΓåÆ override=N1 (N1ΓåÆN1=Γé╣7.5)
+  122055: master=N3 ΓåÆ override=N1 (N1ΓåÆN1=Γé╣7.5)
+  122103: master=N1 ΓåÆ override=N3 (N1ΓåÆN3=Γé╣9.2)
+  122108: master=N1 ΓåÆ override=N3 (N1ΓåÆN3=Γé╣9.2)
+  122110: master=N1 ΓåÆ override=N3 (N1ΓåÆN3=Γé╣9.2)
+  122508: master=N1 ΓåÆ override=N3 (N1ΓåÆN3=Γé╣9.2)
+  123001: master=N1 ΓåÆ override=N3 (N1ΓåÆN3=Γé╣9.2)
+  123003: master=N3 ΓåÆ override=N1 (N1ΓåÆN1=Γé╣7.5)
+  123505: master=N3 ΓåÆ override=N1 (N1ΓåÆN1=Γé╣7.5)
+  123506: master=N1 ΓåÆ override=N3 (N1ΓåÆN3=Γé╣9.2)

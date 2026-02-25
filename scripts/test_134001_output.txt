@@ -1,0 +1,107 @@
+﻿[UTSF] Loaded 23937 pincodes
+[UTSF] Loading 10 UTSF files from C:\Users\FORUS\Downloads\aeiou (3)\aeiou\backend\data\utsf
+[UTSF-BOOT] "Rivigo" | served=3 | exceptions=457 (soft=2) | integrityMode=STRICT
+[UTSF] Loaded: Rivigo (0 pincodes)
+[UTSF-BOOT] "DP World" | served=1727 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: DP World (14792 pincodes)
+[UTSF-BOOT] "DTDC" | served=1727 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: DTDC (7122 pincodes)
+[UTSF-BOOT] "Delhivery Lite" | served=22949 | exceptions=935 (soft=182) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery Lite (22161 pincodes)
+[UTSF-BOOT] "Ekart" | served=1775 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: Ekart (14687 pincodes)
+[UTSF-BOOT] "Safexpress" | served=23819 | exceptions=19 (soft=19) | integrityMode=STRICT
+[UTSF] Loaded: Safexpress (20241 pincodes)
+[UTSF-BOOT] "Gati" | served=8598 | exceptions=840 (soft=74) | integrityMode=STRICT
+[UTSF] Loaded: Gati (19428 pincodes)
+[UTSF-BOOT] "CARGO PLANET" | served=575 | exceptions=2 (soft=2) | integrityMode=STRICT
+[UTSF] Loaded: CARGO PLANET (15292 pincodes)
+[UTSF-BOOT] "Delhivery (Shipshopy)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery (Shipshopy) (21339 pincodes)
+[UTSF-BOOT] "Grabs" | served=3 | exceptions=783 (soft=6) | integrityMode=STRICT
+[UTSF] Loaded: Grabs (0 pincodes)
+[UTSF] Successfully loaded 10 transporters
+[UTSF-BOOT] "Delhivery (Shipshopy)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+[UTSF-BOOT] "Safexpress" | served=23819 | exceptions=19 (soft=19) | integrityMode=STRICT
+
+=== Test: 110020 ΓåÆ 134001, 900 kg ===
+Zone of 134001: N3
+
+Shipshopy serviceability: {"isServiceable":true,"zone":"N3","transporterZone":null,"isOda":false,"coveragePercent":99.57,"reason":"Served in zone N3"}
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+Shipshopy result: {
+  "unitPrice": 9.2,
+  "baseFreight": 8280,
+  "totalCharges": 8380,
+  "breakdown": {
+    "baseFreight": 8280,
+    "effectiveBaseFreight": 8280,
+    "docketCharge": 100,
+    "greenTax": 0,
+    "daccCharges": 0,
+    "miscCharges": 0,
+    "fuelCharges": 0,
+    "rovCharges": 0,
+    "insuaranceCharges": 0,
+    "odaCharges": 0,
+    "handlingCharges": 0,
+    "fmCharges": 0,
+    "appointmentCharges": 0,
+    "invoiceValueCharges": 0
+  },
+  "originZone": "N1",
+  "destZone": "N3",
+  "isOda": false
+}
+Excel expects: Γé╣8,380
+  Rate N1ΓåÆN3: 9.2
+  Base: 9.2 ├ù 900 = 8280
+  Docket: 100
+  Expected total: 8380
+
+Safexpress serviceability: {"isServiceable":true,"zone":"N3","transporterZone":null,"isOda":false,"coveragePercent":100,"reason":"Served in zone N3"}
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+Safexpress result: {
+  "unitPrice": 12,
+  "baseFreight": 10800,
+  "totalCharges": 11650,
+  "breakdown": {
+    "baseFreight": 10800,
+    "effectiveBaseFreight": 10800,
+    "docketCharge": 350,
+    "greenTax": 0,
+    "daccCharges": 0,
+    "miscCharges": 0,
+    "fuelCharges": 400,
+    "rovCharges": 100,
+    "insuaranceCharges": 0,
+    "odaCharges": 0,
+    "handlingCharges": 0,
+    "fmCharges": 0,
+    "appointmentCharges": 0,
+    "invoiceValueCharges": 0
+  },
+  "originZone": "N1",
+  "destZone": "N3",
+  "isOda": false
+}
+Excel expects: Γé╣11,650
+  Rate N1ΓåÆN3: 12
+  Base: 12 ├ù 900 = 10800
+  Fuel: min(5% ├ù 10800, 400) = 400
+  Docket + ROV: 450
+  Expected total: 11650
+
+=== Reverse-engineer Excel ===
+Shipshopy: (8380 - 100) / 900 = 9.2
+Safexpress: base=(11650-450-400)=10800, rate=10800/900=12, fuel=min(540,400)=400 ΓåÆ total=11650

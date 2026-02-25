@@ -1,0 +1,99 @@
+﻿Headers: ["S No","PINCODE","Facility City","Facility State","Zone","ODA","Unit Price_Shipshopsy","Unit Price_VL Cargo","Unit Price_D B Schenker","Unit Price_Safeexpress"]
+
+===== ZONE RATES FROM EXCEL =====
+
+--- Shipshopy ---
+  N1 ΓåÆ C1: 11.1
+  N1 ΓåÆ C2: 12
+  N1 ΓåÆ E1: 14.7
+  N1 ΓåÆ E2: 15.5
+  N1 ΓåÆ N1: 7.5
+  N1 ΓåÆ N2: 8.6
+  N1 ΓåÆ N3: 9.2
+  N1 ΓåÆ N4: 9.8
+  N1 ΓåÆ NE1: 22.1
+  N1 ΓåÆ NE2: 26.1
+  N1 ΓåÆ S1: 13
+  N1 ΓåÆ S2: 13.2
+  N1 ΓåÆ S3: 14.7
+  N1 ΓåÆ S4: 14.7
+  N1 ΓåÆ W1: 11.3
+  N1 ΓåÆ W2: 12.5
+
+--- VLCargo ---
+  N1 ΓåÆ C1: 18
+  N1 ΓåÆ C2: 18
+  N1 ΓåÆ E1: 18
+  N1 ΓåÆ E2: 18
+  N1 ΓåÆ N1: 18
+  N1 ΓåÆ N2: 18
+  N1 ΓåÆ N3: 18
+  N1 ΓåÆ N4: 18
+  N1 ΓåÆ NE1: 18
+  N1 ΓåÆ NE2: 18
+  N1 ΓåÆ S1: 18
+  N1 ΓåÆ S2: 18
+  N1 ΓåÆ S3: 18
+  N1 ΓåÆ S4: 18
+  N1 ΓåÆ W1: 18
+  N1 ΓåÆ W2: 18
+
+--- DBSchenker ---
+  N1 ΓåÆ C1: 8.6
+  N1 ΓåÆ C2: 9
+  N1 ΓåÆ E1: [10.5, 11.5] (2 different rates!)
+  N1 ΓåÆ E2: [10.5, 11.5] (2 different rates!)
+  N1 ΓåÆ N1: 6
+  N1 ΓåÆ N2: [6, 8.1] (2 different rates!)
+  N1 ΓåÆ N3: [6, 6.5] (2 different rates!)
+  N1 ΓåÆ N4: 8.1
+  N1 ΓåÆ NE1: 20
+  N1 ΓåÆ NE2: 23.5
+  N1 ΓåÆ S1: 10.5
+  N1 ΓåÆ S2: 10.5
+  N1 ΓåÆ S3: 10.5
+  N1 ΓåÆ S4: 14
+  N1 ΓåÆ W1: [8.1, 9.5] (2 different rates!)
+  N1 ΓåÆ W2: [8.1, 9.5] (2 different rates!)
+
+--- Safexpress ---
+  N1 ΓåÆ C1: [13, 15] (2 different rates!)
+  N1 ΓåÆ C2: [13, 15] (2 different rates!)
+  N1 ΓåÆ E1: 15
+  N1 ΓåÆ E2: 15
+  N1 ΓåÆ N1: 12
+  N1 ΓåÆ N2: 12
+  N1 ΓåÆ N3: 12
+  N1 ΓåÆ N4: [12, 17, 150] (3 different rates!)
+  N1 ΓåÆ NE1: 20
+  N1 ΓåÆ NE2: [20, 25, 150] (3 different rates!)
+  N1 ΓåÆ S1: 14
+  N1 ΓåÆ S2: 14
+  N1 ΓåÆ S3: 14
+  N1 ΓåÆ S4: 15
+  N1 ΓåÆ W1: [13, 14] (2 different rates!)
+  N1 ΓåÆ W2: [13, 14] (2 different rates!)
+
+===== ODA PINCODES =====
+Delhivery/Shipshopy/VLCargo/Safexpress ODA count: 9382
+DB Schenker ODA count: 7910
+
+ODA by zone:
+  N1: 25 pincodes
+  N3: 1515 pincodes
+  N4: 296 pincodes
+  N2: 13 pincodes
+  C2: 434 pincodes
+  W2: 1361 pincodes
+  W1: 64 pincodes
+  C1: 15 pincodes
+  S1: 38 pincodes
+  S2: 1398 pincodes
+  E2: 1861 pincodes
+  S3: 1128 pincodes
+  S4: 767 pincodes
+  E1: 39 pincodes
+  NE2: 421 pincodes
+  NE1: 7 pincodes
+
+Saved extracted data to: C:\Users\FORUS\Downloads\aeiou (3)\aeiou\backend\scripts\extracted_excel_data.json

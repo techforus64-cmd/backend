@@ -1,0 +1,96 @@
+﻿=== Pincode_DBS ===
+Headers: ["S No","Pincode","City Name ","StateName","ODA","Zone","","","Zone","Price (Per Kg)"]
+Row 1: [1,101213,"Faridabad","Haryana","Yes","N1","","","C1",8.6]
+Row 2: [2,110001,"Delhi","Delhi","No","N1","","","C2",9]
+
+DBS zone rates (DBS internal zone ΓåÆ rate):
+  C1: 8.6
+  C2: 9
+  E1: 10.5
+  E2: 11.5
+  N1: 6
+  N2: 6.5
+  N3: 8.1
+  NE1: 20
+  NE2: 23.5
+  S1: 10.5
+  S2: 10.5
+  S3: 14
+  W1: 8.1
+  W2: 9.5
+
+Main zone ΓåÆ DBS zone mapping:
+  N1 ΓåÆ C1, C2, E1, E2, N1, N2, N3, NE1, NE2, S1, S2, S3, W1, W2
+
+=== Safexpress Multi-Rate Zones ===
+  C1: 13(84x), 15(38x)
+  C2: 13(722x), 15(252x)
+  E1: 15 (uniform)
+  E2: 15 (uniform)
+  N1: 12 (uniform)
+  N2: 12 (uniform)
+  N3: 12 (uniform)
+  N4: 12(640x), 17(156x), 150(3x)
+  NE1: 20 (uniform)
+  NE2: 25(815x), 20(18x), 150(2x)
+  S1: 14 (uniform)
+  S2: 14 (uniform)
+  S3: 14 (uniform)
+  S4: 15 (uniform)
+  W1: 14(256x), 13(167x)
+  W2: 14(1628x), 13(1073x)
+
+=== Vendor Charge Config ===
+
+Shipshopy charge rows:
+  Row0: ["Pin Code",226010]
+  Row1: ["State","Uttar Pradesh"]
+  Row2: ["Weight (Kg)",2500]
+  Row3: ["Zone","N3"]
+  Row4: ["ODA","No"]
+  Row5: ["Unit Price",9.2]
+  Row6: ["Material Price",23000]
+  Row7: ["Fuel Surcharge",0]
+  Row8: ["Docket + ROV",100]
+  Row9: ["ODA",false]
+  Row10: ["Final Price",23100]
+  Row30: [0,""]
+
+VL Cargo charge rows:
+  Row0: ["Pin Code",226010]
+  Row1: ["State","Uttar Pradesh"]
+  Row2: ["Weight (Kg)",2500]
+  Row3: ["Zone","N3"]
+  Row4: ["ODA","No"]
+  Row5: ["Unit Price",18]
+  Row6: ["Material Price",45000]
+  Row7: ["Fuel Charge",0]
+  Row8: ["Docket + ROV",0]
+  Row9: ["ODA",false]
+  Row10: ["Final Price",45000]
+
+Safexpress charge rows:
+  Row0: ["Pin Code",226010]
+  Row1: ["State","Uttar Pradesh"]
+  Row2: ["Weight (Kg)",2500]
+  Row3: ["Zone","N3"]
+  Row4: ["ODA","No"]
+  Row5: ["Unit Price",12]
+  Row6: ["Material Price",30000]
+  Row7: ["Fuel Charge",400]
+  Row8: ["Docket + ROV",450]
+  Row9: ["ODA",0]
+  Row10: ["Final Price",30850]
+
+DB Schenker charge rows:
+  Row0: ["Pin Code",226010,"","Min. Freight","400 INR"]
+  Row1: ["State","Uttar Pradesh","","Min. Weight","50 kg"]
+  Row2: ["Weight (Kg)",2500,"","Min. ODA","850 INR"]
+  Row3: ["Zone","N2","","Fuel Surcharge",0.05]
+  Row4: ["ODA","No","","Vol (Kg)","LBH (cm)/27000"]
+  Row5: ["Unit Price",6.5,"","",""]
+  Row6: ["Material Price",16250,"","",""]
+  Row7: ["Fuel Charge @ 5%",812.5,"","",""]
+  Row8: ["Docket",100,"","",""]
+  Row9: ["ODA",false,"","",""]
+  Row10: ["Final Price",17162.5,"","",""]

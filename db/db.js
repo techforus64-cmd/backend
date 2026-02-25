@@ -1,0 +1,27 @@
+import mongoose from "mongoose";
+import dns from 'dns';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+// Fix for ISPs that block MongoDB SRV lookups - use Google/Cloudflare DNS
+dns.setServers(['8.8.8.8', '8.8.4.4', '1.1.1.1']);
+
+const connectDatabase = async() => {
+    try {
+        const url = process.env.MONGO_DB_URL;
+        console.log('🔌 Attempting to connect to MongoDB...');
+        const connectDB = await mongoose.connect(url);
+        if (connectDB) {
+            console.log(`✅ Connected to DB ${connectDB.connection.host}`);
+        }
+        else {
+            console.log(`❌ Failed to connect DB`);
+        }
+    } catch (error) {
+        console.error('❌ Database connection error:', error);
+        throw error;
+    }
+}
+
+export default connectDatabase;

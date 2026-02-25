@@ -1,0 +1,156 @@
+﻿
+==================================================
+  Price_Shipshopy (ALL NON-EMPTY ROWS)
+==================================================
+  Row 0: ["Pin Code",226010]
+  Row 1: ["State","Uttar Pradesh"]
+  Row 2: ["Weight (Kg)",2500]
+  Row 3: ["Zone","N3"]
+  Row 4: ["ODA","No"]
+  Row 5: ["Unit Price",9.2]
+  Row 6: ["Material Price",23000]
+  Row 7: ["Fuel Surcharge",0]
+  Row 8: ["Docket + ROV",100]
+  Row 9: ["ODA",false]
+  Row 10: ["Final Price",23100]
+  Row 30: [0,""]
+
+==================================================
+  Price_VL Cargo (ALL NON-EMPTY ROWS)
+==================================================
+  Row 0: ["Pin Code",226010]
+  Row 1: ["State","Uttar Pradesh"]
+  Row 2: ["Weight (Kg)",2500]
+  Row 3: ["Zone","N3"]
+  Row 4: ["ODA","No"]
+  Row 5: ["Unit Price",18]
+  Row 6: ["Material Price",45000]
+  Row 7: ["Fuel Charge",0]
+  Row 8: ["Docket + ROV",0]
+  Row 9: ["ODA",false]
+  Row 10: ["Final Price",45000]
+
+==================================================
+  Price Safexpress (ALL NON-EMPTY ROWS)
+==================================================
+  Row 0: ["Pin Code",226010]
+  Row 1: ["State","Uttar Pradesh"]
+  Row 2: ["Weight (Kg)",2500]
+  Row 3: ["Zone","N3"]
+  Row 4: ["ODA","No"]
+  Row 5: ["Unit Price",12]
+  Row 6: ["Material Price",30000]
+  Row 7: ["Fuel Charge",400]
+  Row 8: ["Docket + ROV",450]
+  Row 9: ["ODA",0]
+  Row 10: ["Final Price",30850]
+
+==================================================
+  Price_DB Schenker (ALL NON-EMPTY ROWS)
+==================================================
+  Row 0: ["Pin Code",226010,"","Min. Freight","400 INR"]
+  Row 1: ["State","Uttar Pradesh","","Min. Weight","50 kg"]
+  Row 2: ["Weight (Kg)",2500,"","Min. ODA","850 INR"]
+  Row 3: ["Zone","N2","","Fuel Surcharge",0.05]
+  Row 4: ["ODA","No","","Vol (Kg)","LBH (cm)/27000"]
+  Row 5: ["Unit Price",6.5,"","",""]
+  Row 6: ["Material Price",16250,"","",""]
+  Row 7: ["Fuel Charge @ 5%",812.5,"","",""]
+  Row 8: ["Docket",100,"","",""]
+  Row 9: ["ODA",false,"","",""]
+  Row 10: ["Final Price",17162.5,"","",""]
+
+
+==================================================
+  RAW CELL FORMULAS
+==================================================
+
+--- Price_Shipshopy ---
+  B1: formula="'Input and Output'!D2", value=226010
+  B2: formula="VLOOKUP(B1, Pincode_B2B_Delhivery!B2:D21340, 3, 0)", value=Uttar Pradesh
+  B3: formula="MAX('Input and Output'!D5,20)", value=2500
+  B4: formula="VLOOKUP(B1,Pincode_B2B_Delhivery!B2:E21340,4,0)", value=N3
+  B5: formula="VLOOKUP(B1,Pincode_B2B_Delhivery!B2:F21340,5,0)", value=No
+  B6: formula="VLOOKUP(B1, Pincode_B2B_Delhivery!B2:G21340, 6, 0)", value=9.2
+  B7: formula="B6*B3", value=23000
+  B8: formula="0%*B7", value=0
+  B10: formula="IF(B5="YES", IF(B3<=200, "500", IF(B3>200, 500+3*(B3-200),0)))", value=false
+  B11: formula="B7+B8+B9+B10", value=23100
+
+--- Price_VL Cargo ---
+  B1: formula="'Input and Output'!D2", value=226010
+  B2: formula="VLOOKUP(B1, Pincode_B2B_Delhivery!B2:D21340, 3, 0)", value=Uttar Pradesh
+  B3: formula="'Input and Output'!D5", value=2500
+  B4: formula="VLOOKUP(B1,Pincode_B2B_Delhivery!B2:E21340,4,0)", value=N3
+  B5: formula="VLOOKUP(B1,Pincode_B2B_Delhivery!B2:F21340,5,0)", value=No
+  B6: formula="VLOOKUP(B1, Pincode_B2B_Delhivery!B2:H21340, 7, 0)", value=18
+  B7: formula="B6*B3", value=45000
+  B8: formula="0%*B7", value=0
+  B10: formula="IF(B5="YES", IF(B3<=200, "500", IF(B3>200, 500+3*(B3-200),0)))", value=false
+  B11: formula="B7+B8+B9+B10", value=45000
+
+--- Price Safexpress ---
+  B1: formula="'Input and Output'!D2", value=226010
+  B2: formula="VLOOKUP(B1, Pincode_B2B_Delhivery!B2:D21340, 3, 0)", value=Uttar Pradesh
+  B3: formula="MAX('Input and Output'!D5,20)", value=2500
+  B4: formula="VLOOKUP(B1,Pincode_B2B_Delhivery!B2:E21340,4,0)", value=N3
+  B5: formula="VLOOKUP(B1,Pincode_B2B_Delhivery!B2:F21340,5,0)", value=No
+  B6: formula="VLOOKUP(B1, Pincode_B2B_Delhivery!B2:J21340, 9, 0)", value=12
+  B7: formula="B6*B3", value=30000
+  B8: formula="MIN(5%*B7,400)", value=400
+  B9: formula="350+100", value=450
+  B10: formula="IF(B5="YES", "500", 0)", value=0
+  B11: formula="B7+B8+B9+B10", value=30850
+
+--- Price_DB Schenker ---
+  B1: formula="'Input and Output'!D2", value=226010
+  B2: formula="VLOOKUP(B1, Pincode_DBS!B2:F20237, 3,0)", value=Uttar Pradesh
+  B3: formula="MAX('Input and Output'!D5,50)", value=2500
+  B4: formula="VLOOKUP(B1,Pincode_DBS!B2:F20237, 5, 0)", value=N2
+  B5: formula="VLOOKUP(B1,Pincode_DBS!B2:E20237, 4, 0)", value=No
+  B6: formula="VLOOKUP(B4,Pincode_DBS!I2:J15, 2,0)", value=6.5
+  B7: formula="B6*B3", value=16250
+  B8: formula="5%*B7", value=812.5
+  B10: formula="IF(B5="YES",IF(B3<=212.5,"850",IF(B3>212.5,4*B3,0)))", value=false
+  B11: formula="MAX(B7+B8+B9+B10,400)", value=17162.5
+
+
+==================================================
+  INPUT AND OUTPUT - FORMULAS
+==================================================
+  C1: value="Input"
+  C2: value="Pincode"
+  D2: value=226010
+  E2: value="Fill the Value"
+  C3: value="Actual Weight (Kg)"
+  D3: value=2500
+  E3: value="Fill the Value"
+  C4: value="Volumetric Weight (Kg)"
+  E4: value="Fill the Value if possible"
+  C5: value="Final Weight (Kg)"
+  D5: value=2500
+  E5: value="Autofilled"
+  F5: value="If Pink Filled weight, then can plan for Full Truck"
+  C7: value="Output - Freight"
+  C8: value="Tranporter"
+  D8: value="Freight Value (INR)"
+  E8: value="ODA"
+  F8: value="Remarks"
+  C9: value=" Shipshopy (Delhivery)"
+  D9: formula="Price_Shipshopy!B11", value=23100
+  E9: formula="Price_Shipshopy!B5", value=No
+  C10: value="DB Schenker"
+  D10: formula="'Price_DB Schenker'!B11", value=17162.5
+  E10: formula="'Price_DB Schenker'!B5", value=No
+  C11: value="Safexpress"
+  D11: formula="'Price Safexpress'!B11", value=30850
+  E11: formula="'Price Safexpress'!B5", value=No
+  F11: value="Check Service and ODA on website, if lowest price"
+  C12: value="V L Cargo (Delhivery)"
+  D12: formula="'Price_VL Cargo'!B11", value=45000
+  E12: formula="'Price_VL Cargo'!B5", value=No
+  F12: value="Price Verify for Assam, Arunachal, Sikkim, Meghalaya, Tripura, Nagaland"
+  G12: value="Better for less than 20Kg"
+  C13: value="TCI Freight"
+  F13: value="Manual Job"
+  C14: value="DTDC (SWC)"

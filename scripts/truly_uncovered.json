@@ -1,0 +1,1254 @@
+{
+  "generatedAt": "2026-01-30T11:49:42.119Z",
+  "count": 208,
+  "pincodes": [
+    {
+      "pincode": "123304",
+      "zone": "N3",
+      "city": "REWARI",
+      "state": "HARYANA"
+    },
+    {
+      "pincode": "124515",
+      "zone": "N3",
+      "city": "ROHTAK",
+      "state": "HARYANA"
+    },
+    {
+      "pincode": "132035",
+      "zone": "N3",
+      "city": "KARNAL",
+      "state": "HARYANA"
+    },
+    {
+      "pincode": "151511",
+      "zone": "N3",
+      "city": "MANSA",
+      "state": "PUNJAB"
+    },
+    {
+      "pincode": "172109",
+      "zone": "N4",
+      "city": "SHIMLA",
+      "state": "HIMACHAL PRADESH"
+    },
+    {
+      "pincode": "172112",
+      "zone": "N4",
+      "city": "SHIMLA",
+      "state": "HIMACHAL PRADESH"
+    },
+    {
+      "pincode": "172118",
+      "zone": "N4",
+      "city": "SHIMLA",
+      "state": "HIMACHAL PRADESH"
+    },
+    {
+      "pincode": "173033",
+      "zone": "UNKNOWN",
+      "city": "UNKNOWN",
+      "state": "UNKNOWN"
+    },
+    {
+      "pincode": "173237",
+      "zone": "N4",
+      "city": "SOLAN",
+      "state": "HIMACHAL PRADESH"
+    },
+    {
+      "pincode": "174037",
+      "zone": "N4",
+      "city": "BILASPUR",
+      "state": "HIMACHAL PRADESH"
+    },
+    {
+      "pincode": "175020",
+      "zone": "N4",
+      "city": "MANDI",
+      "state": "HIMACHAL PRADESH"
+    },
+    {
+      "pincode": "176307",
+      "zone": "N4",
+      "city": "CHAMBA",
+      "state": "HIMACHAL PRADESH"
+    },
+    {
+      "pincode": "176316",
+      "zone": "N4",
+      "city": "CHAMBA",
+      "state": "HIMACHAL PRADESH"
+    },
+    {
+      "pincode": "176330",
+      "zone": "N4",
+      "city": "CHAMBA",
+      "state": "HIMACHAL PRADESH"
+    },
+    {
+      "pincode": "182205",
+      "zone": "N4",
+      "city": "KISHTWAR",
+      "state": "JAMMU AND KASHMIR"
+    },
+    {
+      "pincode": "182206",
+      "zone": "N4",
+      "city": "DODA",
+      "state": "JAMMU AND KASHMIR"
+    },
+    {
+      "pincode": "182207",
+      "zone": "N4",
+      "city": "DODA",
+      "state": "JAMMU AND KASHMIR"
+    },
+    {
+      "pincode": "185102",
+      "zone": "N4",
+      "city": "POONCH",
+      "state": "JAMMU AND KASHMIR"
+    },
+    {
+      "pincode": "190099",
+      "zone": "N4",
+      "city": "SRINAGAR",
+      "state": "JAMMU AND KASHMIR"
+    },
+    {
+      "pincode": "193225",
+      "zone": "N4",
+      "city": "KUPWARA",
+      "state": "JAMMU AND KASHMIR"
+    },
+    {
+      "pincode": "193306",
+      "zone": "N4",
+      "city": "BUDGAM",
+      "state": "JAMMU AND KASHMIR"
+    },
+    {
+      "pincode": "194102",
+      "zone": "X3",
+      "city": "DRASS",
+      "state": "LADAKH"
+    },
+    {
+      "pincode": "194106",
+      "zone": "X3",
+      "city": "NYOMA",
+      "state": "LADAKH"
+    },
+    {
+      "pincode": "194107",
+      "zone": "X3",
+      "city": "NYOMA",
+      "state": "LADAKH"
+    },
+    {
+      "pincode": "194109",
+      "zone": "X3",
+      "city": "NYOMA",
+      "state": "LADAKH"
+    },
+    {
+      "pincode": "194201",
+      "zone": "X3",
+      "city": "NYOMA",
+      "state": "LADAKH"
+    },
+    {
+      "pincode": "194202",
+      "zone": "X3",
+      "city": "NYOMA",
+      "state": "LADAKH"
+    },
+    {
+      "pincode": "194301",
+      "zone": "X3",
+      "city": "NYOMA",
+      "state": "LADAKH"
+    },
+    {
+      "pincode": "194302",
+      "zone": "X3",
+      "city": "NYOMA",
+      "state": "LADAKH"
+    },
+    {
+      "pincode": "194303",
+      "zone": "X3",
+      "city": "NYOMA",
+      "state": "LADAKH"
+    },
+    {
+      "pincode": "201022",
+      "zone": "N1",
+      "city": "GHAZIABAD",
+      "state": "UTTAR PRADESH"
+    },
+    {
+      "pincode": "203413",
+      "zone": "N3",
+      "city": "BULANDSHAHR",
+      "state": "UTTAR PRADESH"
+    },
+    {
+      "pincode": "204217",
+      "zone": "N3",
+      "city": "HATHRAS",
+      "state": "UTTAR PRADESH"
+    },
+    {
+      "pincode": "212110",
+      "zone": "N3",
+      "city": "PRAYAGRAJ",
+      "state": "UTTAR PRADESH"
+    },
+    {
+      "pincode": "222004",
+      "zone": "N3",
+      "city": "JAUNPUR",
+      "state": "UTTAR PRADESH"
+    },
+    {
+      "pincode": "222205",
+      "zone": "N3",
+      "city": "JAUNPUR",
+      "state": "UTTAR PRADESH"
+    },
+    {
+      "pincode": "224239",
+      "zone": "N3",
+      "city": "AMBEDKAR NAGAR",
+      "state": "UTTAR PRADESH"
+    },
+    {
+      "pincode": "244720",
+      "zone": "N4",
+      "city": "NAINITAL",
+      "state": "UTTARAKHAND"
+    },
+    {
+      "pincode": "249129",
+      "zone": "N4",
+      "city": "TEHRI GARHWAL",
+      "state": "UTTARAKHAND"
+    },
+    {
+      "pincode": "249206",
+      "zone": "N4",
+      "city": "DEHRADUN",
+      "state": "UTTARAKHAND"
+    },
+    {
+      "pincode": "249412",
+      "zone": "N4",
+      "city": "HARIDWAR",
+      "state": "UTTARAKHAND"
+    },
+    {
+      "pincode": "261304",
+      "zone": "N3",
+      "city": "SITAPUR",
+      "state": "UTTAR PRADESH"
+    },
+    {
+      "pincode": "273312",
+      "zone": "N3",
+      "city": "MAHARAJGANJ",
+      "state": "UTTAR PRADESH"
+    },
+    {
+      "pincode": "302048",
+      "zone": "N1",
+      "city": "JAIPUR",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "305631",
+      "zone": "N3",
+      "city": "AJMER",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "306604",
+      "zone": "N3",
+      "city": "PALI",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "307032",
+      "zone": "N3",
+      "city": "SIROHI",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "312624",
+      "zone": "N3",
+      "city": "CHITTORGARH",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "312625",
+      "zone": "N3",
+      "city": "CHITTORGARH",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "312626",
+      "zone": "N3",
+      "city": "CHITTORGARH",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "312627",
+      "zone": "N3",
+      "city": "CHITTORGARH",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "312628",
+      "zone": "N3",
+      "city": "CHITTORGARH",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "313806",
+      "zone": "N3",
+      "city": "UDAIPUR",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "333010",
+      "zone": "N3",
+      "city": "JHUNJHUNU",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "333055",
+      "zone": "N3",
+      "city": "JHUNJHUNU",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "334024",
+      "zone": "N3",
+      "city": "BIKANER",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "334025",
+      "zone": "N3",
+      "city": "BIKANER",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "335042",
+      "zone": "N3",
+      "city": "GANGANAGAR",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "335521",
+      "zone": "N3",
+      "city": "HANUMANGARH",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "341003",
+      "zone": "N3",
+      "city": "NAGAUR",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "341307",
+      "zone": "N3",
+      "city": "NAGAUR",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "341309",
+      "zone": "N3",
+      "city": "NAGAUR",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "341521",
+      "zone": "N3",
+      "city": "NAGAUR",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "342017",
+      "zone": "N3",
+      "city": "JODHPUR",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "342311",
+      "zone": "N3",
+      "city": "JAISALMER",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "344802",
+      "zone": "N3",
+      "city": "BARMER",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "345028",
+      "zone": "N3",
+      "city": "JAISALMER",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "345031",
+      "zone": "N3",
+      "city": "JAISALMER",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "345034",
+      "zone": "N3",
+      "city": "JAISALMER",
+      "state": "RAJASTHAN"
+    },
+    {
+      "pincode": "382050",
+      "zone": "W2",
+      "city": "GANDHINAGAR",
+      "state": "GUJARAT"
+    },
+    {
+      "pincode": "382055",
+      "zone": "W2",
+      "city": "GANDHINAGAR",
+      "state": "GUJARAT"
+    },
+    {
+      "pincode": "382419",
+      "zone": "W2",
+      "city": "GANDHINAGAR",
+      "state": "GUJARAT"
+    },
+    {
+      "pincode": "382501",
+      "zone": "W2",
+      "city": "AHMADABAD",
+      "state": "GUJARAT"
+    },
+    {
+      "pincode": "384005",
+      "zone": "W2",
+      "city": "MAHESANA",
+      "state": "GUJARAT"
+    },
+    {
+      "pincode": "384316",
+      "zone": "W2",
+      "city": "MAHESANA",
+      "state": "GUJARAT"
+    },
+    {
+      "pincode": "385581",
+      "zone": "W2",
+      "city": "BANAS KANTHA",
+      "state": "GUJARAT"
+    },
+    {
+      "pincode": "387105",
+      "zone": "W2",
+      "city": "KHEDA",
+      "state": "GUJARAT"
+    },
+    {
+      "pincode": "410517",
+      "zone": "W2",
+      "city": "PUNE",
+      "state": "MAHARASHTRA"
+    },
+    {
+      "pincode": "411069",
+      "zone": "W1",
+      "city": "PUNE",
+      "state": "MAHARASHTRA"
+    },
+    {
+      "pincode": "411070",
+      "zone": "W1",
+      "city": "PUNE",
+      "state": "MAHARASHTRA"
+    },
+    {
+      "pincode": "415418",
+      "zone": "W2",
+      "city": "SANGLI",
+      "state": "MAHARASHTRA"
+    },
+    {
+      "pincode": "431724",
+      "zone": "S2",
+      "city": "NANDED",
+      "state": "MAHARASHTRA"
+    },
+    {
+      "pincode": "442606",
+      "zone": "W2",
+      "city": "GADCHIROLI",
+      "state": "MAHARASHTRA"
+    },
+    {
+      "pincode": "444007",
+      "zone": "W2",
+      "city": "AKOLA",
+      "state": "MAHARASHTRA"
+    },
+    {
+      "pincode": "451114",
+      "zone": "UNKNOWN",
+      "city": "UNKNOWN",
+      "state": "UNKNOWN"
+    },
+    {
+      "pincode": "462099",
+      "zone": "C1",
+      "city": "BHOPAL",
+      "state": "MADHYA PRADESH"
+    },
+    {
+      "pincode": "477450",
+      "zone": "C2",
+      "city": "BHIND",
+      "state": "MADHYA PRADESH"
+    },
+    {
+      "pincode": "485227",
+      "zone": "C2",
+      "city": "SATNA",
+      "state": "MADHYA PRADESH"
+    },
+    {
+      "pincode": "491443",
+      "zone": "C2",
+      "city": "RAJNANDGAON",
+      "state": "CHHATTISGARH"
+    },
+    {
+      "pincode": "494220",
+      "zone": "C2",
+      "city": "RAIPUR",
+      "state": "CHHATTISGARH"
+    },
+    {
+      "pincode": "494662",
+      "zone": "C2",
+      "city": "KANKER",
+      "state": "CHHATTISGARH"
+    },
+    {
+      "pincode": "500113",
+      "zone": "S1",
+      "city": "HYDERABAD",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "500117",
+      "zone": "S1",
+      "city": "HYDERABAD",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "500118",
+      "zone": "S1",
+      "city": "HYDERABAD",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "501302",
+      "zone": "S1",
+      "city": "MEDCHAL MALKAJGIRI",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "501303",
+      "zone": "S1",
+      "city": "MEDCHAL MALKAJGIRI",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "501513",
+      "zone": "S1",
+      "city": "RANGA REDDY",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "502033",
+      "zone": "S1",
+      "city": "SANGAREDDY",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "502034",
+      "zone": "S1",
+      "city": "SANGAREDDY",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "504300",
+      "zone": "S2",
+      "city": "MANCHERIAL",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "504314",
+      "zone": "S2",
+      "city": "ADILABAD",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "506325",
+      "zone": "S2",
+      "city": "HANUMAKONDA",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "507112",
+      "zone": "S2",
+      "city": "BHADRADRI KOTHAGUDEM",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "507127",
+      "zone": "S2",
+      "city": "BHADRADRI KOTHAGUDEM",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "507171",
+      "zone": "S2",
+      "city": "KHAMMAM",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "507315",
+      "zone": "S2",
+      "city": "BHADRADRI KOTHAGUDEM",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "509328",
+      "zone": "S2",
+      "city": "MAHABUBNAGAR",
+      "state": "TELANGANA"
+    },
+    {
+      "pincode": "515006",
+      "zone": "S2",
+      "city": "ANANTAPUR",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "517508",
+      "zone": "S2",
+      "city": "TIRUPATI",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "517509",
+      "zone": "S2",
+      "city": "TIRUPATI",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "518008",
+      "zone": "S2",
+      "city": "KURNOOL",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "521004",
+      "zone": "S2",
+      "city": "KRISHNA",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "521320",
+      "zone": "S2",
+      "city": "KRISHNA",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "522241",
+      "zone": "S2",
+      "city": "GUNTUR",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "524300",
+      "zone": "S2",
+      "city": "SPSR NELLORE",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "530057",
+      "zone": "S2",
+      "city": "VISAKHAPATANAM",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "530059",
+      "zone": "S2",
+      "city": "VISAKHAPATANAM",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "532167",
+      "zone": "S2",
+      "city": "SRIKAKULAM",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "532184",
+      "zone": "S2",
+      "city": "SRIKAKULAM",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "532187",
+      "zone": "S2",
+      "city": "SRIKAKULAM",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "532204",
+      "zone": "S2",
+      "city": "SRIKAKULAM",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "533353",
+      "zone": "S2",
+      "city": "KAKINADA",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "533354",
+      "zone": "S2",
+      "city": "KAKINADA",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "533355",
+      "zone": "S2",
+      "city": "KAKINADA",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "535569",
+      "zone": "S2",
+      "city": "PARVATHIPURAM MANYAM",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "535582",
+      "zone": "S2",
+      "city": "VIZIANAGARAM",
+      "state": "ANDHRA PRADESH"
+    },
+    {
+      "pincode": "560119",
+      "zone": "S1",
+      "city": "BENGALURU URBAN",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "562165",
+      "zone": "S2",
+      "city": "BENGALURU RURAL",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "562166",
+      "zone": "S2",
+      "city": "BENGALURU RURAL",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "571190",
+      "zone": "S2",
+      "city": "KODAGU",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "571202",
+      "zone": "S2",
+      "city": "KODAGU",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "577008",
+      "zone": "S2",
+      "city": "DAVANGERE",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "577424",
+      "zone": "S2",
+      "city": "SHIVAMOGGA",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "583286",
+      "zone": "S2",
+      "city": "KOPPAL",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "583288",
+      "zone": "S2",
+      "city": "KOPPAL",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "585446",
+      "zone": "S2",
+      "city": "BIDAR",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "585448",
+      "zone": "S2",
+      "city": "BIDAR",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "586162",
+      "zone": "S2",
+      "city": "VIJAYAPURA",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "586170",
+      "zone": "S2",
+      "city": "VIJAYAPURA",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "587157",
+      "zone": "S2",
+      "city": "BAGALKOT",
+      "state": "KARNATAKA"
+    },
+    {
+      "pincode": "600133",
+      "zone": "S1",
+      "city": "CHENGALPATTU",
+      "state": "TAMIL NADU"
+    },
+    {
+      "pincode": "605403",
+      "zone": "S3",
+      "city": "VILLUPURAM",
+      "state": "TAMIL NADU"
+    },
+    {
+      "pincode": "612906",
+      "zone": "S3",
+      "city": "ARIYALUR",
+      "state": "TAMIL NADU"
+    },
+    {
+      "pincode": "621119",
+      "zone": "S3",
+      "city": "PERAMBALUR",
+      "state": "TAMIL NADU"
+    },
+    {
+      "pincode": "625552",
+      "zone": "S3",
+      "city": "THENI",
+      "state": "TAMIL NADU"
+    },
+    {
+      "pincode": "628155",
+      "zone": "S3",
+      "city": "TUTICORIN",
+      "state": "TAMIL NADU"
+    },
+    {
+      "pincode": "636907",
+      "zone": "S3",
+      "city": "DHARMAPURI",
+      "state": "TAMIL NADU"
+    },
+    {
+      "pincode": "637216",
+      "zone": "S3",
+      "city": "SALEM",
+      "state": "TAMIL NADU"
+    },
+    {
+      "pincode": "641051",
+      "zone": "S3",
+      "city": "COIMBATORE",
+      "state": "TAMIL NADU"
+    },
+    {
+      "pincode": "682551",
+      "zone": "X2",
+      "city": "KAVARATTI",
+      "state": "LAKSHADWEEP"
+    },
+    {
+      "pincode": "682552",
+      "zone": "X2",
+      "city": "KAVARATTI",
+      "state": "LAKSHADWEEP"
+    },
+    {
+      "pincode": "682553",
+      "zone": "X2",
+      "city": "KAVARATTI",
+      "state": "LAKSHADWEEP"
+    },
+    {
+      "pincode": "682554",
+      "zone": "X2",
+      "city": "KAVARATTI",
+      "state": "LAKSHADWEEP"
+    },
+    {
+      "pincode": "682556",
+      "zone": "X2",
+      "city": "KAVARATTI",
+      "state": "LAKSHADWEEP"
+    },
+    {
+      "pincode": "682557",
+      "zone": "X2",
+      "city": "KAVARATTI",
+      "state": "LAKSHADWEEP"
+    },
+    {
+      "pincode": "682558",
+      "zone": "X2",
+      "city": "KAVARATTI",
+      "state": "LAKSHADWEEP"
+    },
+    {
+      "pincode": "682559",
+      "zone": "X2",
+      "city": "KAVARATTI",
+      "state": "LAKSHADWEEP"
+    },
+    {
+      "pincode": "690112",
+      "zone": "S4",
+      "city": "ALAPPUZHA",
+      "state": "KERALA"
+    },
+    {
+      "pincode": "711331",
+      "zone": "E2",
+      "city": "HOWRAH",
+      "state": "WEST BENGAL"
+    },
+    {
+      "pincode": "723134",
+      "zone": "E2",
+      "city": "PURULIA",
+      "state": "WEST BENGAL"
+    },
+    {
+      "pincode": "737107",
+      "zone": "NE2",
+      "city": "WEST DISTRICT",
+      "state": "SIKKIM"
+    },
+    {
+      "pincode": "737120",
+      "zone": "NE2",
+      "city": "NORTH DISTRICT",
+      "state": "SIKKIM"
+    },
+    {
+      "pincode": "744112",
+      "zone": "X1",
+      "city": "BAMBOO FLAT",
+      "state": "ANDAMAN & NICOBAR ISLANDS"
+    },
+    {
+      "pincode": "744206",
+      "zone": "X1",
+      "city": "KADAMTALA",
+      "state": "ANDAMAN & NICOBAR ISLANDS"
+    },
+    {
+      "pincode": "744207",
+      "zone": "X1",
+      "city": "KADAMTALA",
+      "state": "ANDAMAN & NICOBAR ISLANDS"
+    },
+    {
+      "pincode": "744211",
+      "zone": "X1",
+      "city": "BARATANG",
+      "state": "ANDAMAN & NICOBAR ISLANDS"
+    },
+    {
+      "pincode": "751032",
+      "zone": "E1",
+      "city": "KHORDHA",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "751035",
+      "zone": "E1",
+      "city": "KHORDHA",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "754298",
+      "zone": "E2",
+      "city": "JAJAPUR",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "754299",
+      "zone": "E2",
+      "city": "JAJAPUR",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "755063",
+      "zone": "E2",
+      "city": "JAJAPUR",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "756050",
+      "zone": "E2",
+      "city": "BALESHWAR",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "756088",
+      "zone": "E2",
+      "city": "BALESHWAR",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "756089",
+      "zone": "E2",
+      "city": "BALESHWAR",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "759149",
+      "zone": "E2",
+      "city": "ANUGUL",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "759150",
+      "zone": "E2",
+      "city": "ANUGUL",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "765010",
+      "zone": "E2",
+      "city": "RAYAGADA",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "765011",
+      "zone": "E2",
+      "city": "RAYAGADA",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "766003",
+      "zone": "UNKNOWN",
+      "city": "UNKNOWN",
+      "state": "UNKNOWN"
+    },
+    {
+      "pincode": "768024",
+      "zone": "E2",
+      "city": "SAMBALPUR",
+      "state": "ODISHA"
+    },
+    {
+      "pincode": "782436",
+      "zone": "NE2",
+      "city": "HOJAI",
+      "state": "ASSAM"
+    },
+    {
+      "pincode": "783136",
+      "zone": "NE2",
+      "city": "GOALPARA",
+      "state": "ASSAM"
+    },
+    {
+      "pincode": "788818",
+      "zone": "NE2",
+      "city": "DIMA HASAO",
+      "state": "ASSAM"
+    },
+    {
+      "pincode": "791003",
+      "zone": "UNKNOWN",
+      "city": "UNKNOWN",
+      "state": "UNKNOWN"
+    },
+    {
+      "pincode": "794113",
+      "zone": "NE2",
+      "city": "EAST GARO HILLS",
+      "state": "MEGHALAYA"
+    },
+    {
+      "pincode": "794114",
+      "zone": "NE2",
+      "city": "EAST GARO HILLS",
+      "state": "MEGHALAYA"
+    },
+    {
+      "pincode": "795015",
+      "zone": "UNKNOWN",
+      "city": "UNKNOWN",
+      "state": "UNKNOWN"
+    },
+    {
+      "pincode": "795121",
+      "zone": "UNKNOWN",
+      "city": "UNKNOWN",
+      "state": "UNKNOWN"
+    },
+    {
+      "pincode": "796291",
+      "zone": "NE2",
+      "city": "SAITUAL",
+      "state": "MIZORAM"
+    },
+    {
+      "pincode": "797119",
+      "zone": "NE2",
+      "city": "KOHIMA",
+      "state": "NAGALAND"
+    },
+    {
+      "pincode": "798628",
+      "zone": "NE2",
+      "city": "LONGLENG",
+      "state": "NAGALAND"
+    },
+    {
+      "pincode": "800031",
+      "zone": "E1",
+      "city": "PATNA",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "800032",
+      "zone": "E1",
+      "city": "PATNA",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "804409",
+      "zone": "E2",
+      "city": "JEHANABAD",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "805114",
+      "zone": "E2",
+      "city": "NAWADA",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "811306",
+      "zone": "E2",
+      "city": "JAMUI",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "821015",
+      "zone": "E2",
+      "city": "KAIMUR (BHABUA)",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "824126",
+      "zone": "E2",
+      "city": "AURANGABAD",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "824304",
+      "zone": "E2",
+      "city": "AURANGABAD",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "826012",
+      "zone": "E2",
+      "city": "DHANBAD",
+      "state": "JHARKHAND"
+    },
+    {
+      "pincode": "826013",
+      "zone": "E2",
+      "city": "DHANBAD",
+      "state": "JHARKHAND"
+    },
+    {
+      "pincode": "845405",
+      "zone": "E2",
+      "city": "PASHCHIM CHAMPARAN",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "845439",
+      "zone": "E2",
+      "city": "PASHCHIM CHAMPARAN",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "846010",
+      "zone": "E2",
+      "city": "DARBHANGA",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "848104",
+      "zone": "E2",
+      "city": "SAMASTIPUR",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "851121",
+      "zone": "E2",
+      "city": "BEGUSARAI",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "852134",
+      "zone": "E2",
+      "city": "SUPAUL",
+      "state": "BIHAR"
+    },
+    {
+      "pincode": "854110",
+      "zone": "E2",
+      "city": "KATIHAR",
+      "state": "BIHAR"
+    }
+  ]
+}

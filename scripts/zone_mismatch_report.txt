@@ -1,0 +1,899 @@
+﻿Master pincodes loaded: 23937
+DBS zone rates: {"C1":8.6,"C2":9,"E1":10.5,"E2":11.5,"N1":6,"N2":6.5,"N3":8.1,"NE1":20,"NE2":23.5,"S1":10.5,"S2":10.5,"S3":14,"W1":8.1,"W2":9.5}
+
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ  SHIPSHOPY Zone Mismatches (pincodes.json Γëá Excel)                 Γòæ
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+Total mismatched pincodes: 443
+
+  master=E2 ΓåÆ excel=E1 ΓÇö 44 pincodes
+    Excel rates: 14.7
+    UTSF N1ΓåÆE2 rate: 15.5
+      700059 (Kolkata, West Bengal) rate=14.7 ODA=No
+      700108 (Kolkata, West Bengal) rate=14.7 ODA=No
+      700131 (Kolkata, West Bengal) rate=14.7 ODA=No
+      700132 (Kolkata, West Bengal) rate=14.7 ODA=No
+      700133 (Kolkata, West Bengal) rate=14.7 ODA=No
+      ... and 39 more
+
+  master=W2 ΓåÆ excel=W1 ΓÇö 38 pincodes
+    Excel rates: 11.3
+    UTSF N1ΓåÆW2 rate: 12.5
+      380004 (Ahmedabad, Gujarat) rate=11.3 ODA=No
+      380210 (Ahmedabad, Gujarat) rate=11.3 ODA=Yes
+      380330 (Ahmedabad, Gujarat) rate=11.3 ODA=Yes
+      382260 (Ahmedabad, Gujarat) rate=11.3 ODA=No
+      382425 (Ahmedabad, Gujarat) rate=11.3 ODA=No
+      ... and 33 more
+
+  master=N1 ΓåÆ excel=N3 ΓÇö 33 pincodes
+    Excel rates: 9.2
+    UTSF N1ΓåÆN1 rate: 7.5
+      122103 (Bilaspur-HR, Haryana) rate=9.2 ODA=Yes
+      122108 (Nuh, Haryana) rate=9.2 ODA=No
+      122110 (Bhiwadi, Rajasthan) rate=9.2 ODA=No
+      122508 (Hodal, Haryana) rate=9.2 ODA=Yes
+      123001 (Narnaul, Haryana) rate=9.2 ODA=Yes
+      ... and 28 more
+
+  master=E1 ΓåÆ excel=E2 ΓÇö 33 pincodes
+    Excel rates: 15.5
+    UTSF N1ΓåÆE1 rate: 14.7
+      700076 (Madhyamgram, West Bengal) rate=15.5 ODA=No
+      700083 (Madhyamgram, West Bengal) rate=15.5 ODA=No
+      700155 (Madhyamgram, West Bengal) rate=15.5 ODA=No
+      735101 (Jalpaiguri, West Bengal) rate=15.5 ODA=No
+      735121 (Jalpaiguri, West Bengal) rate=15.5 ODA=No
+      ... and 28 more
+
+  master=N3 ΓåÆ excel=N1 ΓÇö 32 pincodes
+    Excel rates: 7.5
+    UTSF N1ΓåÆN3 rate: 9.2
+      121102 (Faridabad, Haryana) rate=7.5 ODA=No
+      122055 (Gurgaon, Haryana) rate=7.5 ODA=No
+      123003 (Gurgaon, Haryana) rate=7.5 ODA=No
+      123505 (Gurgaon, Haryana) rate=7.5 ODA=No
+      124105 (Gurgaon, Haryana) rate=7.5 ODA=No
+      ... and 27 more
+
+  master=W1 ΓåÆ excel=W2 ΓÇö 31 pincodes
+    Excel rates: 12.5
+    UTSF N1ΓåÆW1 rate: 11.3
+      380012 (Vadodara, Gujarat) rate=12.5 ODA=No
+      380019 (Gandhinagar, Gujarat) rate=12.5 ODA=No
+      382160 (Viramgam, Gujarat) rate=12.5 ODA=Yes
+      382165 (Kadi, Gujarat) rate=12.5 ODA=Yes
+      382225 (Dholka, Gujarat) rate=12.5 ODA=No
+      ... and 26 more
+
+  master=C1 ΓåÆ excel=C2 ΓÇö 31 pincodes
+    Excel rates: 12
+    UTSF N1ΓåÆC1 rate: 11.1
+      450001 (Khandwa, Madhya Pradesh) rate=12 ODA=Yes
+      450006 (Khandwa, Madhya Pradesh) rate=12 ODA=Yes
+      450017 (Khandwa, Madhya Pradesh) rate=12 ODA=Yes
+      450110 (Mundi, Madhya Pradesh) rate=12 ODA=Yes
+      450112 (Mundi, Madhya Pradesh) rate=12 ODA=Yes
+      ... and 26 more
+
+  master=N2 ΓåÆ excel=N3 ΓÇö 20 pincodes
+    Excel rates: 9.2
+    UTSF N1ΓåÆN2 rate: 8.6
+      141115 (Machhiwara, Punjab) rate=9.2 ODA=No
+      141119 (Malerkotla, Punjab) rate=9.2 ODA=No
+      141121 (Machhiwara, Punjab) rate=9.2 ODA=No
+      141125 (Machhiwara, Punjab) rate=9.2 ODA=No
+      141202 (Raikot, Punjab) rate=9.2 ODA=Yes
+      ... and 15 more
+
+  master=S2 ΓåÆ excel=S1 ΓÇö 20 pincodes
+    Excel rates: 13
+    UTSF N1ΓåÆS2 rate: 13.2
+      501203 (Hyderabad, Telangana) rate=13 ODA=No
+      501218 (Hyderabad, Telangana) rate=13 ODA=No
+      501404 (Hyderabad, Telangana) rate=13 ODA=Yes
+      501505 (Hyderabad, Telangana) rate=13 ODA=No
+      501507 (Hyderabad, Telangana) rate=13 ODA=No
+      ... and 15 more
+
+  master=N3 ΓåÆ excel=W2 ΓÇö 17 pincodes
+    Excel rates: 12.5
+    UTSF N1ΓåÆN3 rate: 9.2
+      346002 (Bhavnagar, Gujarat) rate=12.5 ODA=Yes
+      346003 (Bhavnagar, Gujarat) rate=12.5 ODA=Yes
+      346004 (Bhavnagar, Gujarat) rate=12.5 ODA=Yes
+      346005 (Bhavnagar, Gujarat) rate=12.5 ODA=Yes
+      346050 (Bhavnagar, Gujarat) rate=12.5 ODA=Yes
+      ... and 12 more
+
+  master=S3 ΓåÆ excel=S1 ΓÇö 16 pincodes
+    Excel rates: 13
+    UTSF N1ΓåÆS3 rate: 14.7
+      600120 (Chennai, Tamil Nadu) rate=13 ODA=No
+      601201 (Chennai, Tamil Nadu) rate=13 ODA=No
+      601203 (Chennai, Tamil Nadu) rate=13 ODA=No
+      601206 (Chennai, Tamil Nadu) rate=13 ODA=No
+      601301 (Chennai, Tamil Nadu) rate=13 ODA=No
+      ... and 11 more
+
+  master=S1 ΓåÆ excel=S2 ΓÇö 14 pincodes
+    Excel rates: 13.2
+    UTSF N1ΓåÆS1 rate: 13
+      501503 (Shankarpalle, Telangana) rate=13.2 ODA=No
+      502301 (Pregnapur, Telangana) rate=13.2 ODA=Yes
+      502302 (Jogipet, Telangana) rate=13.2 ODA=No
+      502303 (Medak, Telangana) rate=13.2 ODA=Yes
+      502321 (Zahirabad, Telangana) rate=13.2 ODA=Yes
+      ... and 9 more
+
+  master=N3 ΓåÆ excel=N4 ΓÇö 13 pincodes
+    Excel rates: 9.8
+    UTSF N1ΓåÆN3 rate: 9.2
+      173001 (Nahan, Himachal Pradesh) rate=9.8 ODA=No
+      173002 (Shimla, Himachal Pradesh) rate=9.8 ODA=Yes
+      173004 (Paonta Sahib, Himachal Pradesh) rate=9.8 ODA=Yes
+      173020 (Paonta Sahib, Himachal Pradesh) rate=9.8 ODA=No
+      173021 (Paonta Sahib, Himachal Pradesh) rate=9.8 ODA=Yes
+      ... and 8 more
+
+  master=C2 ΓåÆ excel=C1 ΓÇö 12 pincodes
+    Excel rates: 11.1
+    UTSF N1ΓåÆC2 rate: 12
+      451010 (Indore, Madhya Pradesh) rate=11.1 ODA=Yes
+      453771 (Indore, Madhya Pradesh) rate=11.1 ODA=No
+      455111 (Indore, Madhya Pradesh) rate=11.1 ODA=Yes
+      466111 (Bhopal, Madhya Pradesh) rate=11.1 ODA=Yes
+      490001 (Raipur, Chhattisgarh) rate=11.1 ODA=No
+      ... and 7 more
+
+  master=N3 ΓåÆ excel=N2 ΓÇö 9 pincodes
+    Excel rates: 8.6
+    UTSF N1ΓåÆN3 rate: 9.2
+      141103 (Ludhiana, Punjab) rate=8.6 ODA=No
+      141201 (Ludhiana, Punjab) rate=8.6 ODA=No
+      141412 (Ludhiana, Punjab) rate=8.6 ODA=No
+      141416 (Ludhiana, Punjab) rate=8.6 ODA=No
+      141417 (Ludhiana, Punjab) rate=8.6 ODA=No
+      ... and 4 more
+
+  master=S1 ΓåÆ excel=S3 ΓÇö 9 pincodes
+    Excel rates: 14.7
+    UTSF N1ΓåÆS1 rate: 13
+      601207 (Gummudipoondi, Tamil Nadu) rate=14.7 ODA=Yes
+      602022 (Sriperumbudur, Tamil Nadu) rate=14.7 ODA=No
+      603102 (Tirukalukundram, Tamil Nadu) rate=14.7 ODA=No
+      603104 (Tirukalukundram, Tamil Nadu) rate=14.7 ODA=No
+      603204 (Sriperumbudur, Tamil Nadu) rate=14.7 ODA=No
+      ... and 4 more
+
+  master=W2 ΓåÆ excel=C2 ΓÇö 7 pincodes
+    Excel rates: 12
+    UTSF N1ΓåÆW2 rate: 12.5
+      451447 (Barwani, Madhya Pradesh) rate=12 ODA=Yes
+      451448 (Sendhwa, Madhya Pradesh) rate=12 ODA=Yes
+      451666 (Sendhwa, Madhya Pradesh) rate=12 ODA=No
+      451667 (Pansemal, Madhya Pradesh) rate=12 ODA=No
+      451669 (Sendhwa, Madhya Pradesh) rate=12 ODA=Yes
+      ... and 2 more
+
+  master=N2 ΓåÆ excel=N4 ΓÇö 6 pincodes
+    Excel rates: 9.8
+    UTSF N1ΓåÆN2 rate: 8.6
+      173025 (Paonta Sahib, Himachal Pradesh) rate=9.8 ODA=No
+      173028 (Paonta Sahib, Himachal Pradesh) rate=9.8 ODA=No
+      248125 (Herbertpur, Uttarakhand) rate=9.8 ODA=Yes
+      248142 (Herbertpur, Uttarakhand) rate=9.8 ODA=Yes
+      248165 (Herbertpur, Uttarakhand) rate=9.8 ODA=Yes
+      ... and 1 more
+
+  master=N4 ΓåÆ excel=N3 ΓÇö 5 pincodes
+    Excel rates: 9.2
+    UTSF N1ΓåÆN4 rate: 9.8
+      176403 (Pathankot, Punjab) rate=9.2 ODA=No
+      184201 (Pathankot, Punjab) rate=9.2 ODA=No
+      244601 (Thakurdwara, Uttar Pradesh) rate=9.2 ODA=No
+      244701 (Milak, Uttar Pradesh) rate=9.2 ODA=Yes
+      246142 (Dhampur, Uttar Pradesh) rate=9.2 ODA=No
+
+  master=N4 ΓåÆ excel=N2 ΓÇö 4 pincodes
+    Excel rates: 8.6
+    UTSF N1ΓåÆN4 rate: 9.8
+      248143 (Dehradun, Uttarakhand) rate=8.6 ODA=Yes
+      248146 (Dehradun, Uttarakhand) rate=8.6 ODA=No
+      248147 (Dehradun, Uttarakhand) rate=8.6 ODA=Yes
+      248197 (Dehradun, Uttarakhand) rate=8.6 ODA=No
+
+  master=N3 ΓåÆ excel=C2 ΓÇö 4 pincodes
+    Excel rates: 12
+    UTSF N1ΓåÆN3 rate: 9.2
+      284201 (Niwari, Madhya Pradesh) rate=12 ODA=No
+      312606 (Jawad, Madhya Pradesh) rate=12 ODA=No
+      312619 (Ratlam, Madhya Pradesh) rate=12 ODA=Yes
+      471201 (Chhatarpur, Madhya Pradesh) rate=12 ODA=Yes
+
+  master=NE1 ΓåÆ excel=NE2 ΓÇö 4 pincodes
+    Excel rates: 26.1
+    UTSF N1ΓåÆNE1 rate: 22.1
+      781031 (Baihata, Assam) rate=26.1 ODA=No
+      781039 (Hajo, Assam) rate=26.1 ODA=No
+      781121 (Baihata, Assam) rate=26.1 ODA=Yes
+      781129 (Boko, Assam) rate=26.1 ODA=No
+
+  master=NE2 ΓåÆ excel=NE1 ΓÇö 4 pincodes
+    Excel rates: 22.1
+    UTSF N1ΓåÆNE2 rate: 26.1
+      781101 (Guwahati, Assam) rate=22.1 ODA=No
+      781122 (Guwahati, Assam) rate=22.1 ODA=No
+      781128 (Guwahati, Assam) rate=22.1 ODA=No
+      781132 (Guwahati, Assam) rate=22.1 ODA=Yes
+
+  master=N4 ΓåÆ excel=N1 ΓÇö 3 pincodes
+    Excel rates: 7.5
+    UTSF N1ΓåÆN4 rate: 9.8
+      133301 (Chandigarh, Chandigarh) rate=7.5 ODA=Yes
+      134101 (Chandigarh, Chandigarh) rate=7.5 ODA=No
+      134104 (Chandigarh, Chandigarh) rate=7.5 ODA=Yes
+
+  master=X3 ΓåÆ excel=N4 ΓÇö 3 pincodes
+    Excel rates: 9.8
+    UTSF N1ΓåÆX3 rate: undefined
+      194101 (Leh, Ladakh) rate=9.8 ODA=No
+      194104 (Leh, Ladakh) rate=9.8 ODA=No
+      194401 (Diskit, Ladakh) rate=9.8 ODA=No
+
+  master=S2 ΓåÆ excel=W2 ΓÇö 3 pincodes
+    Excel rates: 12.5
+    UTSF N1ΓåÆS2 rate: 13.2
+      431723 (Degloor, Maharashtra) rate=12.5 ODA=Yes
+      503305 (Degloor, Maharashtra) rate=12.5 ODA=Yes
+      503309 (Degloor, Maharashtra) rate=12.5 ODA=No
+
+  master=W2 ΓåÆ excel=S2 ΓÇö 3 pincodes
+    Excel rates: 13.2
+    UTSF N1ΓåÆW2 rate: 12.5
+      431731 (Bodhan, Telangana) rate=13.2 ODA=No
+      431741 (Aurad, Karnataka) rate=13.2 ODA=No
+      586204 (Indi, Karnataka) rate=13.2 ODA=No
+
+  master=S2 ΓåÆ excel=S3 ΓÇö 3 pincodes
+    Excel rates: 14.7
+    UTSF N1ΓåÆS2 rate: 13.2
+      517002 (Vellore, Tamil Nadu) rate=14.7 ODA=No
+      517132 (Vellore, Tamil Nadu) rate=14.7 ODA=No
+      517599 (Sholinghur, Tamil Nadu) rate=14.7 ODA=No
+
+  master=C2 ΓåÆ excel=N3 ΓÇö 2 pincodes
+    Excel rates: 9.2
+    UTSF N1ΓåÆC2 rate: 12
+      206451 (Mainpuri, Uttar Pradesh) rate=9.2 ODA=No
+      327801 (Kushalgarh, Rajasthan) rate=9.2 ODA=Yes
+
+  master=S2 ΓåÆ excel=E2 ΓÇö 2 pincodes
+    Excel rates: 15.5
+    UTSF N1ΓåÆS2 rate: 13.2
+      531105 (Balimela, Orissa) rate=15.5 ODA=Yes
+      532215 (Paralakhemundi, Orissa) rate=15.5 ODA=No
+
+  master=S4 ΓåÆ excel=S3 ΓÇö 2 pincodes
+    Excel rates: 14.7
+    UTSF N1ΓåÆS4 rate: 14.7
+      678661 (Pollachi, Tamil Nadu) rate=14.7 ODA=Yes
+      686620 (Palani, Tamil Nadu) rate=14.7 ODA=Yes
+
+  master=S3 ΓåÆ excel=S4 ΓÇö 2 pincodes
+    Excel rates: 14.7
+    UTSF N1ΓåÆS3 rate: 14.7
+      691307 (Ayoor, Kerala) rate=14.7 ODA=Yes
+      691310 (Ayoor, Kerala) rate=14.7 ODA=Yes
+
+  master=X1 ΓåÆ excel=NE2 ΓÇö 2 pincodes
+    Excel rates: 26.1
+    UTSF N1ΓåÆX1 rate: undefined
+      744201 (Mayabunder, Andaman & Nicobar) rate=26.1 ODA=No
+      744204 (Mayabunder, Andaman & Nicobar) rate=26.1 ODA=No
+
+  master=N1 ΓåÆ excel=N4 ΓÇö 1 pincodes
+    Excel rates: 9.8
+    UTSF N1ΓåÆN1 rate: 7.5
+      170001 (Shimla, Himachal Pradesh) rate=9.8 ODA=Yes
+
+  master=N3 ΓåÆ excel=E2 ΓÇö 1 pincodes
+    Excel rates: 15.5
+    UTSF N1ΓåÆN3 rate: 9.2
+      277501 (Buxar, Bihar) rate=15.5 ODA=No
+
+  master=N1 ΓåÆ excel=W1 ΓÇö 1 pincodes
+    Excel rates: 11.3
+    UTSF N1ΓåÆN1 rate: 7.5
+      387810 (Ahmedabad, Gujarat) rate=11.3 ODA=No
+
+  master=N3 ΓåÆ excel=W1 ΓÇö 1 pincodes
+    Excel rates: 11.3
+    UTSF N1ΓåÆN3 rate: 9.2
+      395210 (Surat, Gujarat) rate=11.3 ODA=No
+
+  master=N1 ΓåÆ excel=W2 ΓÇö 1 pincodes
+    Excel rates: 12.5
+    UTSF N1ΓåÆN1 rate: 7.5
+      395650 (Songadh, Gujarat) rate=12.5 ODA=Yes
+
+  master=E2 ΓåÆ excel=C2 ΓÇö 1 pincodes
+    Excel rates: 12
+    UTSF N1ΓåÆE2 rate: 15.5
+      450445 (Burhanpur, Madhya Pradesh) rate=12 ODA=Yes
+
+  master=S2 ΓåÆ excel=C2 ΓÇö 1 pincodes
+    Excel rates: 12
+    UTSF N1ΓåÆS2 rate: 13.2
+      454221 (Kukshi, Madhya Pradesh) rate=12 ODA=Yes
+
+  master=C2 ΓåÆ excel=W2 ΓÇö 1 pincodes
+    Excel rates: 12.5
+    UTSF N1ΓåÆC2 rate: 12
+      457882 (Dahod, Gujarat) rate=12.5 ODA=No
+
+  master=S3 ΓåÆ excel=S2 ΓÇö 1 pincodes
+    Excel rates: 13.2
+    UTSF N1ΓåÆS3 rate: 14.7
+      517001 (Chittoor, Andhra Pradesh) rate=13.2 ODA=No
+
+  master=E2 ΓåÆ excel=S2 ΓÇö 1 pincodes
+    Excel rates: 13.2
+    UTSF N1ΓåÆE2 rate: 15.5
+      531087 (Koyyuru, Andhra Pradesh) rate=13.2 ODA=No
+
+  master=E2 ΓåÆ excel=NE2 ΓÇö 1 pincodes
+    Excel rates: 26.1
+    UTSF N1ΓåÆE2 rate: 15.5
+      737126 (Namchi, Sikkim) rate=26.1 ODA=No
+
+  master=X1 ΓåÆ excel=E1 ΓÇö 1 pincodes
+    Excel rates: 14.7
+    UTSF N1ΓåÆX1 rate: undefined
+      745010 (Bhubaneshwar, Orissa) rate=14.7 ODA=No
+
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ  SHIPSHOPY Rate Mismatches (same zone, different rate from N1)     Γòæ
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+Total pincodes with rate mismatch: 433
+
+  zone=E2 utsf=15.5 excel=14.7 ΓÇö 44 pincodes
+      700059 (Kolkata) excelZone=E1
+      700108 (Kolkata) excelZone=E1
+      700131 (Kolkata) excelZone=E1
+      ... and 41 more
+
+  zone=W2 utsf=12.5 excel=11.3 ΓÇö 38 pincodes
+      380004 (Ahmedabad) excelZone=W1
+      380210 (Ahmedabad) excelZone=W1
+      380330 (Ahmedabad) excelZone=W1
+      ... and 35 more
+
+  zone=N1 utsf=7.5 excel=9.2 ΓÇö 33 pincodes
+      122103 (Bilaspur-HR) excelZone=N3
+      122108 (Nuh) excelZone=N3
+      122110 (Bhiwadi) excelZone=N3
+      ... and 30 more
+
+  zone=E1 utsf=14.7 excel=15.5 ΓÇö 33 pincodes
+      700076 (Madhyamgram) excelZone=E2
+      700083 (Madhyamgram) excelZone=E2
+      700155 (Madhyamgram) excelZone=E2
+      ... and 30 more
+
+  zone=N3 utsf=9.2 excel=7.5 ΓÇö 32 pincodes
+      121102 (Faridabad) excelZone=N1
+      122055 (Gurgaon) excelZone=N1
+      123003 (Gurgaon) excelZone=N1
+      ... and 29 more
+
+  zone=W1 utsf=11.3 excel=12.5 ΓÇö 31 pincodes
+      380012 (Vadodara) excelZone=W2
+      380019 (Gandhinagar) excelZone=W2
+      382160 (Viramgam) excelZone=W2
+      ... and 28 more
+
+  zone=C1 utsf=11.1 excel=12 ΓÇö 31 pincodes
+      450001 (Khandwa) excelZone=C2
+      450006 (Khandwa) excelZone=C2
+      450017 (Khandwa) excelZone=C2
+      ... and 28 more
+
+  zone=N2 utsf=8.6 excel=9.2 ΓÇö 20 pincodes
+      141115 (Machhiwara) excelZone=N3
+      141119 (Malerkotla) excelZone=N3
+      141121 (Machhiwara) excelZone=N3
+      ... and 17 more
+
+  zone=S2 utsf=13.2 excel=13 ΓÇö 20 pincodes
+      501203 (Hyderabad) excelZone=S1
+      501218 (Hyderabad) excelZone=S1
+      501404 (Hyderabad) excelZone=S1
+      ... and 17 more
+
+  zone=N3 utsf=9.2 excel=12.5 ΓÇö 17 pincodes
+      346002 (Bhavnagar) excelZone=W2
+      346003 (Bhavnagar) excelZone=W2
+      346004 (Bhavnagar) excelZone=W2
+      ... and 14 more
+
+  zone=S3 utsf=14.7 excel=13 ΓÇö 16 pincodes
+      600120 (Chennai) excelZone=S1
+      601201 (Chennai) excelZone=S1
+      601203 (Chennai) excelZone=S1
+      ... and 13 more
+
+  zone=S1 utsf=13 excel=13.2 ΓÇö 14 pincodes
+      501503 (Shankarpalle) excelZone=S2
+      502301 (Pregnapur) excelZone=S2
+      502302 (Jogipet) excelZone=S2
+      ... and 11 more
+
+  zone=N3 utsf=9.2 excel=9.8 ΓÇö 13 pincodes
+      173001 (Nahan) excelZone=N4
+      173002 (Shimla) excelZone=N4
+      173004 (Paonta Sahib) excelZone=N4
+      ... and 10 more
+
+  zone=C2 utsf=12 excel=11.1 ΓÇö 12 pincodes
+      451010 (Indore) excelZone=C1
+      453771 (Indore) excelZone=C1
+      455111 (Indore) excelZone=C1
+      ... and 9 more
+
+  zone=N3 utsf=9.2 excel=8.6 ΓÇö 9 pincodes
+      141103 (Ludhiana) excelZone=N2
+      141201 (Ludhiana) excelZone=N2
+      141412 (Ludhiana) excelZone=N2
+      ... and 6 more
+
+  zone=S1 utsf=13 excel=14.7 ΓÇö 9 pincodes
+      601207 (Gummudipoondi) excelZone=S3
+      602022 (Sriperumbudur) excelZone=S3
+      603102 (Tirukalukundram) excelZone=S3
+      ... and 6 more
+
+  zone=W2 utsf=12.5 excel=12 ΓÇö 7 pincodes
+      451447 (Barwani) excelZone=C2
+      451448 (Sendhwa) excelZone=C2
+      451666 (Sendhwa) excelZone=C2
+      ... and 4 more
+
+  zone=N2 utsf=8.6 excel=9.8 ΓÇö 6 pincodes
+      173025 (Paonta Sahib) excelZone=N4
+      173028 (Paonta Sahib) excelZone=N4
+      248125 (Herbertpur) excelZone=N4
+      ... and 3 more
+
+  zone=N4 utsf=9.8 excel=9.2 ΓÇö 5 pincodes
+      176403 (Pathankot) excelZone=N3
+      184201 (Pathankot) excelZone=N3
+      244601 (Thakurdwara) excelZone=N3
+      ... and 2 more
+
+  zone=N4 utsf=9.8 excel=8.6 ΓÇö 4 pincodes
+      248143 (Dehradun) excelZone=N2
+      248146 (Dehradun) excelZone=N2
+      248147 (Dehradun) excelZone=N2
+      ... and 1 more
+
+  zone=N3 utsf=9.2 excel=12 ΓÇö 4 pincodes
+      284201 (Niwari) excelZone=C2
+      312606 (Jawad) excelZone=C2
+      312619 (Ratlam) excelZone=C2
+      ... and 1 more
+
+  zone=NE1 utsf=22.1 excel=26.1 ΓÇö 4 pincodes
+      781031 (Baihata) excelZone=NE2
+      781039 (Hajo) excelZone=NE2
+      781121 (Baihata) excelZone=NE2
+      ... and 1 more
+
+  zone=NE2 utsf=26.1 excel=22.1 ΓÇö 4 pincodes
+      781101 (Guwahati) excelZone=NE1
+      781122 (Guwahati) excelZone=NE1
+      781128 (Guwahati) excelZone=NE1
+      ... and 1 more
+
+  zone=N4 utsf=9.8 excel=7.5 ΓÇö 3 pincodes
+      133301 (Chandigarh) excelZone=N1
+      134101 (Chandigarh) excelZone=N1
+      134104 (Chandigarh) excelZone=N1
+
+  zone=S2 utsf=13.2 excel=12.5 ΓÇö 3 pincodes
+      431723 (Degloor) excelZone=W2
+      503305 (Degloor) excelZone=W2
+      503309 (Degloor) excelZone=W2
+
+  zone=W2 utsf=12.5 excel=13.2 ΓÇö 3 pincodes
+      431731 (Bodhan) excelZone=S2
+      431741 (Aurad) excelZone=S2
+      586204 (Indi) excelZone=S2
+
+  zone=S2 utsf=13.2 excel=14.7 ΓÇö 3 pincodes
+      517002 (Vellore) excelZone=S3
+      517132 (Vellore) excelZone=S3
+      517599 (Sholinghur) excelZone=S3
+
+  zone=C2 utsf=12 excel=9.2 ΓÇö 2 pincodes
+      206451 (Mainpuri) excelZone=N3
+      327801 (Kushalgarh) excelZone=N3
+
+  zone=S2 utsf=13.2 excel=15.5 ΓÇö 2 pincodes
+      531105 (Balimela) excelZone=E2
+      532215 (Paralakhemundi) excelZone=E2
+
+  zone=N1 utsf=7.5 excel=9.8 ΓÇö 1 pincodes
+      170001 (Shimla) excelZone=N4
+
+  zone=N3 utsf=9.2 excel=15.5 ΓÇö 1 pincodes
+      277501 (Buxar) excelZone=E2
+
+  zone=N1 utsf=7.5 excel=11.3 ΓÇö 1 pincodes
+      387810 (Ahmedabad) excelZone=W1
+
+  zone=N3 utsf=9.2 excel=11.3 ΓÇö 1 pincodes
+      395210 (Surat) excelZone=W1
+
+  zone=N1 utsf=7.5 excel=12.5 ΓÇö 1 pincodes
+      395650 (Songadh) excelZone=W2
+
+  zone=E2 utsf=15.5 excel=12 ΓÇö 1 pincodes
+      450445 (Burhanpur) excelZone=C2
+
+  zone=S2 utsf=13.2 excel=12 ΓÇö 1 pincodes
+      454221 (Kukshi) excelZone=C2
+
+  zone=C2 utsf=12 excel=12.5 ΓÇö 1 pincodes
+      457882 (Dahod) excelZone=W2
+
+  zone=S3 utsf=14.7 excel=13.2 ΓÇö 1 pincodes
+      517001 (Chittoor) excelZone=S2
+
+  zone=E2 utsf=15.5 excel=13.2 ΓÇö 1 pincodes
+      531087 (Koyyuru) excelZone=S2
+
+  zone=E2 utsf=15.5 excel=26.1 ΓÇö 1 pincodes
+      737126 (Namchi) excelZone=NE2
+
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ  DB SCHENKER Zone Mismatches (pincodes.json Γëá Excel)               Γòæ
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+Total mismatched pincodes: 8741
+
+  master=N3 ΓåÆ excel=N2 ΓÇö 3568 pincodes
+    DBS rate for excel zone N2: 6.5
+    DBS rate for master zone N3: 8.1
+      121102 (Palwal, Haryana) ODA=No
+      121103 (Palwal, Haryana) ODA=Yes
+      121105 (Palwal, Haryana) ODA=No
+      121106 (Palwal, Haryana) ODA=No
+      121107 (Palwal, Haryana) ODA=No
+      ... and 3563 more
+
+  master=S3 ΓåÆ excel=S2 ΓÇö 2163 pincodes
+    DBS rate for excel zone S2: 10.5
+    DBS rate for master zone S3: 14
+      517001 (Chittoor, Andhra Pradesh) ODA=Yes
+      601202 (Gummudipoondi, Tamil Nadu) ODA=Yes
+      601204 (Gummudipoondi, Tamil Nadu) ODA=Yes
+      601205 (Gummudipoondi, Tamil Nadu) ODA=Yes
+      603003 (Chengalpattu, Tamil Nadu) ODA=Yes
+      ... and 2158 more
+
+  master=S4 ΓåÆ excel=S3 ΓÇö 1743 pincodes
+    DBS rate for excel zone S3: 14
+    DBS rate for master zone S4: N/A
+      670001 (Kannur, Kerala) ODA=Yes
+      670002 (Kannur, Kerala) ODA=Yes
+      670003 (Kannur, Kerala) ODA=Yes
+      670004 (Kannur, Kerala) ODA=Yes
+      670005 (Kannur, Kerala) ODA=Yes
+      ... and 1738 more
+
+  master=N4 ΓåÆ excel=N3 ΓÇö 739 pincodes
+    DBS rate for excel zone N3: 8.1
+    DBS rate for master zone N4: N/A
+      133302 (Parwanoo, Himachal Pradesh) ODA=No
+      134105 (Parwanoo, Himachal Pradesh) ODA=Yes
+      171001 (Shimla, Himachal Pradesh) ODA=No
+      171002 (Shimla, Himachal Pradesh) ODA=No
+      171003 (Shimla, Himachal Pradesh) ODA=No
+      ... and 734 more
+
+  master=W2 ΓåÆ excel=W1 ΓÇö 96 pincodes
+    DBS rate for excel zone W1: 8.1
+    DBS rate for master zone W2: 9.5
+      380004 (Ahmedabad, Gujarat) ODA=No
+      380210 (Ahmedabad, Gujarat) ODA=Yes
+      380330 (Ahmedabad, Gujarat) ODA=Yes
+      382260 (Ahmedabad, Gujarat) ODA=No
+      382425 (Ahmedabad, Gujarat) ODA=No
+      ... and 91 more
+
+  master=N3 ΓåÆ excel=N1 ΓÇö 57 pincodes
+    DBS rate for excel zone N1: 6
+    DBS rate for master zone N3: 8.1
+      122050 (Gurgaon, Haryana) ODA=Yes
+      122051 (Gurgaon, Haryana) ODA=No
+      122052 (Gurgaon, Haryana) ODA=No
+      122055 (Gurgaon, Haryana) ODA=Yes
+      122105 (Gurgaon, Haryana) ODA=No
+      ... and 52 more
+
+  master=E2 ΓåÆ excel=E1 ΓÇö 50 pincodes
+    DBS rate for excel zone E1: 10.5
+    DBS rate for master zone E2: 11.5
+      700059 (Kolkata, West Bengal) ODA=No
+      700108 (Kolkata, West Bengal) ODA=No
+      700131 (Kolkata, West Bengal) ODA=No
+      700132 (Kolkata, West Bengal) ODA=No
+      700133 (Kolkata, West Bengal) ODA=No
+      ... and 45 more
+
+  master=S3 ΓåÆ excel=S1 ΓÇö 37 pincodes
+    DBS rate for excel zone S1: 10.5
+    DBS rate for master zone S3: 14
+      600120 (Chennai, Tamil Nadu) ODA=No
+      600121 (Chennai, Tamil Nadu) ODA=Yes
+      601201 (Chennai, Tamil Nadu) ODA=Yes
+      601203 (Chennai, Tamil Nadu) ODA=Yes
+      601206 (Chennai, Tamil Nadu) ODA=Yes
+      ... and 32 more
+
+  master=E1 ΓåÆ excel=E2 ΓÇö 34 pincodes
+    DBS rate for excel zone E2: 11.5
+    DBS rate for master zone E1: 10.5
+      700076 (Madhyamgram, West Bengal) ODA=No
+      700083 (Madhyamgram, West Bengal) ODA=No
+      700155 (Madhyamgram, West Bengal) ODA=No
+      735101 (Jalpaiguri, West Bengal) ODA=Yes
+      735121 (Jalpaiguri, West Bengal) ODA=Yes
+      ... and 29 more
+
+  master=S1 ΓåÆ excel=S2 ΓÇö 32 pincodes
+    DBS rate for excel zone S2: 10.5
+    DBS rate for master zone S1: 10.5
+      501503 (Shankarpalle, Telangana) ODA=No
+      502001 (Patancheru, Telangana) ODA=No
+      502285 (Patancheru, Telangana) ODA=No
+      502294 (Patancheru, Telangana) ODA=No
+      502295 (Patancheru, Telangana) ODA=No
+      ... and 27 more
+
+  master=C1 ΓåÆ excel=C2 ΓÇö 31 pincodes
+    DBS rate for excel zone C2: 9
+    DBS rate for master zone C1: 8.6
+      450001 (Khandwa, Madhya Pradesh) ODA=No
+      450006 (Khandwa, Madhya Pradesh) ODA=Yes
+      450017 (Khandwa, Madhya Pradesh) ODA=Yes
+      450110 (Mundi, Madhya Pradesh) ODA=No
+      450112 (Mundi, Madhya Pradesh) ODA=No
+      ... and 26 more
+
+  master=N1 ΓåÆ excel=N2 ΓÇö 29 pincodes
+    DBS rate for excel zone N2: 6.5
+    DBS rate for master zone N1: 6
+      122108 (Nuh, Haryana) ODA=Yes
+      122110 (Bhiwadi, Rajasthan) ODA=Yes
+      122508 (Hodal, Haryana) ODA=No
+      123001 (Narnaul, Haryana) ODA=No
+      123506 (Pataudi, Haryana) ODA=No
+      ... and 24 more
+
+  master=W1 ΓåÆ excel=W2 ΓÇö 28 pincodes
+    DBS rate for excel zone W2: 9.5
+    DBS rate for master zone W1: 8.1
+      380012 (Vadodara, Gujarat) ODA=No
+      380019 (Gandhinagar, Gujarat) ODA=No
+      382160 (Viramgam, Gujarat) ODA=Yes
+      382165 (Kadi, Gujarat) ODA=No
+      382225 (Dholka, Gujarat) ODA=No
+      ... and 23 more
+
+  master=S2 ΓåÆ excel=S1 ΓÇö 22 pincodes
+    DBS rate for excel zone S1: 10.5
+    DBS rate for master zone S2: 10.5
+      501203 (Hyderabad, Telangana) ODA=No
+      501218 (Hyderabad, Telangana) ODA=No
+      501404 (Hyderabad, Telangana) ODA=Yes
+      501505 (Hyderabad, Telangana) ODA=No
+      501507 (Hyderabad, Telangana) ODA=Yes
+      ... and 17 more
+
+  master=N3 ΓåÆ excel=W2 ΓÇö 17 pincodes
+    DBS rate for excel zone W2: 9.5
+    DBS rate for master zone N3: 8.1
+      346002 (Bhavnagar, Gujarat) ODA=Yes
+      346003 (Bhavnagar, Gujarat) ODA=Yes
+      346004 (Bhavnagar, Gujarat) ODA=Yes
+      346005 (Bhavnagar, Gujarat) ODA=Yes
+      346050 (Bhavnagar, Gujarat) ODA=Yes
+      ... and 12 more
+
+  master=C2 ΓåÆ excel=C1 ΓÇö 15 pincodes
+    DBS rate for excel zone C1: 8.6
+    DBS rate for master zone C2: 9
+      451010 (Indore, Madhya Pradesh) ODA=Yes
+      453771 (Indore, Madhya Pradesh) ODA=Yes
+      455111 (Indore, Madhya Pradesh) ODA=Yes
+      456002 (Indore, Madhya Pradesh) ODA=Yes
+      456005 (Indore, Madhya Pradesh) ODA=Yes
+      ... and 10 more
+
+  master=N4 ΓåÆ excel=N2 ΓÇö 12 pincodes
+    DBS rate for excel zone N2: 6.5
+    DBS rate for master zone N4: N/A
+      176403 (Pathankot, Punjab) ODA=No
+      184201 (Pathankot, Punjab) ODA=No
+      244601 (Thakurdwara, Uttar Pradesh) ODA=No
+      244701 (Milak, Uttar Pradesh) ODA=Yes
+      246142 (Dhampur, Uttar Pradesh) ODA=No
+      ... and 7 more
+
+  master=N2 ΓåÆ excel=N3 ΓÇö 8 pincodes
+    DBS rate for excel zone N3: 8.1
+    DBS rate for master zone N2: 6.5
+      173025 (Paonta Sahib, Himachal Pradesh) ODA=No
+      173028 (Paonta Sahib, Himachal Pradesh) ODA=No
+      248122 (Mussoorie, Uttarakhand) ODA=No
+      248125 (Herbertpur, Uttarakhand) ODA=No
+      248142 (Herbertpur, Uttarakhand) ODA=No
+      ... and 3 more
+
+  master=W2 ΓåÆ excel=C2 ΓÇö 7 pincodes
+    DBS rate for excel zone C2: 9
+    DBS rate for master zone W2: 9.5
+      451447 (Barwani, Madhya Pradesh) ODA=Yes
+      451448 (Sendhwa, Madhya Pradesh) ODA=Yes
+      451666 (Sendhwa, Madhya Pradesh) ODA=Yes
+      451667 (Sendhwa, Madhya Pradesh) ODA=Yes
+      451669 (Sendhwa, Madhya Pradesh) ODA=Yes
+      ... and 2 more
+
+  master=S2 ΓåÆ excel=E2 ΓÇö 7 pincodes
+    DBS rate for excel zone E2: 11.5
+    DBS rate for master zone S2: 10.5
+      532213 (Paralakhemundi, Orissa) ODA=No
+      532214 (Paralakhemundi, Orissa) ODA=No
+      532215 (Paralakhemundi, Orissa) ODA=No
+      532216 (Paralakhemundi, Orissa) ODA=No
+      532426 (Paralakhemundi, Orissa) ODA=No
+      ... and 2 more
+
+  master=N3 ΓåÆ excel=C2 ΓÇö 6 pincodes
+    DBS rate for excel zone C2: 9
+    DBS rate for master zone N3: 8.1
+      284201 (Niwari, Madhya Pradesh) ODA=Yes
+      312606 (Neemuch, Madhya Pradesh) ODA=Yes
+      312615 (Mandsaur, Madhya Pradesh) ODA=Yes
+      312619 (Ratlam, Madhya Pradesh) ODA=Yes
+      322251 (Sabalgarh, Madhya Pradesh) ODA=No
+      ... and 1 more
+
+  master=NE2 ΓåÆ excel=NE1 ΓÇö 6 pincodes
+    DBS rate for excel zone NE1: 20
+    DBS rate for master zone NE2: 23.5
+      781030 (Guwahati, Assam) ODA=No
+      781101 (Guwahati, Assam) ODA=No
+      781122 (Guwahati, Assam) ODA=No
+      781125 (Guwahati, Assam) ODA=Yes
+      781128 (Guwahati, Assam) ODA=No
+      ... and 1 more
+
+  master=W2 ΓåÆ excel=S2 ΓÇö 5 pincodes
+    DBS rate for excel zone S2: 10.5
+    DBS rate for master zone W2: 9.5
+      431731 (Bodhan, Telangana) ODA=No
+      431741 (Aurad, Karnataka) ODA=No
+      431803 (Bhainsa, Telangana) ODA=No
+      586204 (Indi, Karnataka) ODA=Yes
+      586205 (Indi, Karnataka) ODA=Yes
+
+  master=N4 ΓåÆ excel=N1 ΓÇö 4 pincodes
+    DBS rate for excel zone N1: 6
+    DBS rate for master zone N4: N/A
+      133301 (Chandigarh, Chandigarh) ODA=No
+      134101 (Chandigarh, Chandigarh) ODA=No
+      134102 (Chandigarh, Chandigarh) ODA=No
+      134104 (Chandigarh, Chandigarh) ODA=No
+
+  master=C2 ΓåÆ excel=N2 ΓÇö 3 pincodes
+    DBS rate for excel zone N2: 6.5
+    DBS rate for master zone C2: 9
+      206451 (Farrukhabad, Uttar Pradesh) ODA=Yes
+      327801 (Kushalgarh, Rajasthan) ODA=Yes
+      472246 (Jhansi, Uttar Pradesh) ODA=No
+
+  master=S2 ΓåÆ excel=W2 ΓÇö 3 pincodes
+    DBS rate for excel zone W2: 9.5
+    DBS rate for master zone S2: 10.5
+      431723 (Degloor, Maharashtra) ODA=No
+      503305 (Degloor, Maharashtra) ODA=No
+      503309 (Degloor, Maharashtra) ODA=No
+
+  master=E2 ΓåÆ excel=C1 ΓÇö 3 pincodes
+    DBS rate for excel zone C1: 8.6
+    DBS rate for master zone E2: 11.5
+      802114 (Rajpur, Bihar) ODA=Yes
+      802122 (Rajpur, Bihar) ODA=Yes
+      802128 (Rajpur, Bihar) ODA=Yes
+
+  master=N3 ΓåÆ excel=E2 ΓÇö 2 pincodes
+    DBS rate for excel zone E2: 11.5
+    DBS rate for master zone N3: 8.1
+      232112 (Chakia, Bihar) ODA=Yes
+      277501 (Buxar, Bihar) ODA=Yes
+
+  master=C2 ΓåÆ excel=W2 ΓÇö 2 pincodes
+    DBS rate for excel zone W2: 9.5
+    DBS rate for master zone C2: 9
+      457882 (Dahod, Gujarat) ODA=Yes
+      481224 (Gondia, Maharashtra) ODA=Yes
+
+  master=S4 ΓåÆ excel=S2 ΓÇö 2 pincodes
+    DBS rate for excel zone S2: 10.5
+    DBS rate for master zone S4: N/A
+      678661 (Pollachi, Tamil Nadu) ODA=No
+      686620 (Palani, Tamil Nadu) ODA=Yes
+
+  master=N1 ΓåÆ excel=N3 ΓÇö 1 pincodes
+    DBS rate for excel zone N3: 8.1
+    DBS rate for master zone N1: 6
+      170001 (Shimla, Himachal Pradesh) ODA=Yes
+
+  master=W2 ΓåÆ excel=N2 ΓÇö 1 pincodes
+    DBS rate for excel zone N2: 6.5
+    DBS rate for master zone W2: 9.5
+      385130 (Abu Road, Rajasthan) ODA=Yes
+
+  master=N1 ΓåÆ excel=W1 ΓÇö 1 pincodes
+    DBS rate for excel zone W1: 8.1
+    DBS rate for master zone N1: 6
+      387810 (Ahmedabad, Gujarat) ODA=Yes
+
+  master=N3 ΓåÆ excel=W1 ΓÇö 1 pincodes
+    DBS rate for excel zone W1: 8.1
+    DBS rate for master zone N3: 8.1
+      395210 (Surat, Gujarat) ODA=Yes
+
+  master=N1 ΓåÆ excel=W2 ΓÇö 1 pincodes
+    DBS rate for excel zone W2: 9.5
+    DBS rate for master zone N1: 6
+      395650 (Songadh, Gujarat) ODA=Yes
+
+  master=E2 ΓåÆ excel=C2 ΓÇö 1 pincodes
+    DBS rate for excel zone C2: 9
+    DBS rate for master zone E2: 11.5
+      450445 (Burhanpur, Madhya Pradesh) ODA=No
+
+  master=S2 ΓåÆ excel=C2 ΓÇö 1 pincodes
+    DBS rate for excel zone C2: 9
+    DBS rate for master zone S2: 10.5
+      454221 (Kukshi, Madhya Pradesh) ODA=Yes
+
+  master=E2 ΓåÆ excel=S2 ΓÇö 1 pincodes
+    DBS rate for excel zone S2: 10.5
+    DBS rate for master zone E2: 11.5
+      531087 (Koyyuru, Andhra Pradesh) ODA=No
+
+  master=S4 ΓåÆ excel=N1 ΓÇö 1 pincodes
+    DBS rate for excel zone N1: 6
+    DBS rate for master zone S4: N/A
+      654321 (Delhi, Delhi) ODA=Yes
+
+  master=X1 ΓåÆ excel=E1 ΓÇö 1 pincodes
+    DBS rate for excel zone E1: 10.5
+    DBS rate for master zone X1: N/A
+      745010 (Bhubaneshwar, Orissa) ODA=Yes
+
+
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ  SUMMARY                                                           Γòæ
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+  Shipshopy: 443 zone mismatches across 45 patterns
+  Shipshopy: 433 rate mismatches (including zone mismatch effect)
+  DB Schenker: 8741 zone mismatches across 40 patterns

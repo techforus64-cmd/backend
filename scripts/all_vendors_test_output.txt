@@ -1,0 +1,197 @@
+﻿[UTSF] Loaded 23937 pincodes
+[UTSF] Loading 12 UTSF files from C:\Users\FORUS\Downloads\aeiou (3)\aeiou\backend\data\utsf
+[UTSF-BOOT] "Delhivery (VL Cargo)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery (VL Cargo) (21339 pincodes)
+[UTSF-BOOT] "DB Schenker" | served=20231 | exceptions=0 (soft=0) | integrityMode=STRICT
+[UTSF] Loaded: DB Schenker (20231 pincodes)
+[UTSF-BOOT] "Rivigo" | served=3 | exceptions=457 (soft=2) | integrityMode=STRICT
+[UTSF] Loaded: Rivigo (0 pincodes)
+[UTSF-BOOT] "DP World" | served=1727 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: DP World (14792 pincodes)
+[UTSF-BOOT] "DTDC" | served=1727 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: DTDC (7122 pincodes)
+[UTSF-BOOT] "Delhivery Lite" | served=22949 | exceptions=935 (soft=182) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery Lite (22161 pincodes)
+[UTSF-BOOT] "Ekart" | served=1775 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: Ekart (14687 pincodes)
+[UTSF-BOOT] "Safexpress" | served=23819 | exceptions=19 (soft=19) | integrityMode=STRICT
+[UTSF] Loaded: Safexpress (20241 pincodes)
+[UTSF-BOOT] "Gati" | served=8598 | exceptions=840 (soft=74) | integrityMode=STRICT
+[UTSF] Loaded: Gati (19428 pincodes)
+[UTSF-BOOT] "CARGO PLANET" | served=575 | exceptions=2 (soft=2) | integrityMode=STRICT
+[UTSF] Loaded: CARGO PLANET (15292 pincodes)
+[UTSF-BOOT] "Delhivery (Shipshopy)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery (Shipshopy) (21339 pincodes)
+[UTSF-BOOT] "Grabs" | served=3 | exceptions=783 (soft=6) | integrityMode=STRICT
+[UTSF] Loaded: Grabs (0 pincodes)
+[UTSF] Successfully loaded 12 transporters
+Loaded 23937 master pincodes
+Zone check: 110020=N1, 226010=N3, 689703=S4, 400001=W1
+[UTSF-BOOT] "Delhivery (Shipshopy)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+[UTSF-BOOT] "Safexpress" | served=23819 | exceptions=19 (soft=19) | integrityMode=STRICT
+[UTSF-BOOT] "DB Schenker" | served=20231 | exceptions=0 (soft=0) | integrityMode=STRICT
+[UTSF-BOOT] "Delhivery (VL Cargo)" | served=23103 | exceptions=781 (soft=159) | integrityMode=STRICT
+
+
+============================================================
+  All-Vendor vs Excel Verification Report
+  4 vendors x 10 test cases
+============================================================
+
+[GROUP 1] Non-ODA: 110020 -> 226010 (masterN3, no ODA), 2500 kg
+
+--- Test 1: Shipshopy -> 226010 (N3, no ODA), 2500 kg ---
+  Route: 110020 -> 226010, Weight: 2500 kg
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Rs 23100
+    Base=Rs 23000, Fuel=Rs 0, Docket=Rs 100, ODA=Rs 0
+  Origin zone: N1, Dest zone: N3, isOda: false
+  PASS: Total Rs 23100 matches Excel Rs 23100
+  PASS ODA: Rs 0 matches expected Rs 0
+
+--- Test 2: Safexpress -> 226010 (N3, no ODA), 2500 kg ---
+  Route: 110020 -> 226010, Weight: 2500 kg
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Rs 30850
+    Base=Rs 30000, Fuel=Rs 400, Docket=Rs 350, ODA=Rs 0
+  Origin zone: N1, Dest zone: N3, isOda: false
+  PASS: Total Rs 30850 matches Excel Rs 30850
+  PASS ODA: Rs 0 matches expected Rs 0
+
+--- Test 3: DB Schenker -> 226010 (masterN3->6.5/kg, no ODA), 2500 kg ---
+  Route: 110020 -> 226010, Weight: 2500 kg
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Rs 17162.5
+    Base=Rs 16250, Fuel=Rs 812.5, Docket=Rs 100, ODA=Rs 0
+  Origin zone: N1, Dest zone: N3, isOda: false
+  PASS: Total Rs 17162.5 matches Excel Rs 17162.5
+  PASS ODA: Rs 0 matches expected Rs 0
+
+--- Test 4: VL Cargo -> 226010 (masterN3, flat 18/kg, no ODA), 2500 kg ---
+  Route: 110020 -> 226010, Weight: 2500 kg
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Rs 45000
+    Base=Rs 45000, Fuel=Rs 0, Docket=Rs 0, ODA=Rs 0
+  Origin zone: N1, Dest zone: N3, isOda: false
+  PASS: Total Rs 45000 matches Excel Rs 45000
+  PASS ODA: Rs 0 matches expected Rs 0
+
+[GROUP 2] ODA: 110020 -> 689703 (masterS4, ODA=yes), 800 kg
+
+--- Test 5: Shipshopy -> 689703 (S4, ODA), 800 kg ---
+  Route: 110020 -> 689703, Weight: 800 kg
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Rs 14160
+    Base=Rs 11760, Fuel=Rs 0, Docket=Rs 100, ODA=Rs 2300
+  Origin zone: N1, Dest zone: S4, isOda: true
+  PASS: Total Rs 14160 matches Excel Rs 14160
+  PASS ODA: Rs 2300 matches expected Rs 2300
+
+--- Test 6: Safexpress -> 689703 (S4, ODA), 800 kg ---
+  Route: 110020 -> 689703, Weight: 800 kg
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Rs 13350
+    Base=Rs 12000, Fuel=Rs 400, Docket=Rs 350, ODA=Rs 500
+  Origin zone: N1, Dest zone: S4, isOda: true
+  PASS: Total Rs 13350 matches Excel Rs 13350
+  PASS ODA: Rs 500 matches expected Rs 500
+
+--- Test 7: DB Schenker -> 689703 (masterS4=14.0/kg, ODA Rs 850), 800 kg ---
+  Route: 110020 -> 689703, Weight: 800 kg
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Rs 12710
+    Base=Rs 11200, Fuel=Rs 560, Docket=Rs 100, ODA=Rs 850
+  Origin zone: N1, Dest zone: S4, isOda: true
+  PASS: Total Rs 12710 matches Excel Rs 12710
+  PASS ODA: Rs 850 matches expected Rs 850
+
+--- Test 8: VL Cargo -> 689703 (S4, ODA pincode, no surcharge), 800 kg ---
+  Route: 110020 -> 689703, Weight: 800 kg
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Rs 16700
+    Base=Rs 14400, Fuel=Rs 0, Docket=Rs 0, ODA=Rs 2300
+  Origin zone: N1, Dest zone: S4, isOda: true
+  FAIL: Total Rs 16700 != Excel Rs 14400 (diff: 2300.00)
+  FAIL ODA: Rs 2300 != expected Rs 0
+
+[GROUP 3] Edge Cases
+
+--- Test 9: DB Schenker edge ΓÇö 110020 -> 110001 (N1->N1), 30 kg (below minCharges Rs 400) ---
+  Route: 110020 -> 110001, Weight: 30 kg
+[UTSF DIAG] DB Schenker checking 110020:
+  -> Zone in Master: N1
+  -> Mode: ONLY_SERVED
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Rs 509
+    Base=Rs 180, Fuel=Rs 9, Docket=Rs 100, ODA=Rs 0
+  Origin zone: N1, Dest zone: N1, isOda: false
+  PASS: Total Rs 509 matches Excel Rs 509
+  PASS ODA: Rs 0 matches expected Rs 0
+
+--- Test 10: VL Cargo edge ΓÇö 110020 -> 226010, 10000 kg (high weight flat rate) ---
+  Route: 110020 -> 226010, Weight: 10000 kg
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  Result: Rs 180000
+    Base=Rs 180000, Fuel=Rs 0, Docket=Rs 0, ODA=Rs 0
+  Origin zone: N1, Dest zone: N3, isOda: false
+  PASS: Total Rs 180000 matches Excel Rs 180000
+  PASS ODA: Rs 0 matches expected Rs 0
+
+============================================================
+  RESULTS: 9 PASSED, 1 FAILED (out of 10 tests)
+============================================================
+
+--- ODA Detection Spot Checks ---
+  Shipshopy 689703: isServiceable=true, zone=S4, isOda=true [OK]
+  Safexpress 689703: isServiceable=true, zone=S4, isOda=true [OK]
+  DB Schenker 689703: isServiceable=true, zone=S4, isOda=true [OK]
+  VL Cargo 689703: isServiceable=true, zone=S4, isOda=true [OK]
+  Shipshopy 226010: isServiceable=true, zone=N3, isOda=false [OK]
+  DB Schenker 226010: isServiceable=true, zone=N3, isOda=false [OK]

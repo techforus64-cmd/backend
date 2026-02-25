@@ -1,0 +1,459 @@
+﻿[UTSF] Loaded 23937 pincodes
+[UTSF] Loading 12 UTSF files from C:\Users\FORUS\Downloads\aeiou (3)\aeiou\backend\data\utsf
+[UTSF-BOOT] "Delhivery (VL Cargo)" | served=23255 | exceptions=629 (soft=159) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery (VL Cargo) (21339 pincodes)
+[UTSF-BOOT] "DB Schenker" | served=21437 | exceptions=0 (soft=0) | integrityMode=STRICT
+[UTSF] Loaded: DB Schenker (20231 pincodes)
+[UTSF-BOOT] "Rivigo" | served=3 | exceptions=457 (soft=2) | integrityMode=STRICT
+[UTSF] Loaded: Rivigo (0 pincodes)
+[UTSF-BOOT] "DP World" | served=1727 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: DP World (14792 pincodes)
+[UTSF-BOOT] "DTDC" | served=1727 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: DTDC (7122 pincodes)
+[UTSF-BOOT] "Delhivery Lite" | served=22949 | exceptions=935 (soft=182) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery Lite (22161 pincodes)
+[UTSF-BOOT] "Ekart" | served=1775 | exceptions=18 (soft=18) | integrityMode=STRICT
+[UTSF] Loaded: Ekart (14687 pincodes)
+[UTSF-BOOT] "Safexpress" | served=23819 | exceptions=19 (soft=19) | integrityMode=STRICT
+[UTSF] Loaded: Safexpress (20241 pincodes)
+[UTSF-BOOT] "Gati" | served=8598 | exceptions=840 (soft=74) | integrityMode=STRICT
+[UTSF] Loaded: Gati (19428 pincodes)
+[UTSF-BOOT] "CARGO PLANET" | served=575 | exceptions=2 (soft=2) | integrityMode=STRICT
+[UTSF] Loaded: CARGO PLANET (15292 pincodes)
+[UTSF-BOOT] "Delhivery (Shipshopy)" | served=23264 | exceptions=620 (soft=159) | integrityMode=STRICT
+[UTSF] Loaded: Delhivery (Shipshopy) (21339 pincodes)
+[UTSF-BOOT] "Grabs" | served=3 | exceptions=783 (soft=6) | integrityMode=STRICT
+[UTSF] Loaded: Grabs (0 pincodes)
+[UTSF] Successfully loaded 12 transporters
+Loading Excel...
+Loading Transporters...
+[UTSF-BOOT] "Delhivery (Shipshopy)" | served=23264 | exceptions=620 (soft=159) | integrityMode=STRICT
+[UTSF-BOOT] "Safexpress" | served=23819 | exceptions=19 (soft=19) | integrityMode=STRICT
+[UTSF-BOOT] "DB Schenker" | served=21437 | exceptions=0 (soft=0) | integrityMode=STRICT
+[UTSF-BOOT] "Delhivery (VL Cargo)" | served=23255 | exceptions=629 (soft=159) | integrityMode=STRICT
+
+Starting Comprehensive Verification
+10 NON-ODA + 10 ODA Checks. Weight: 850 kg
+
+--- Test: 400041 (NON-ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 670346 (NON-ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 524320 (NON-ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 403109 (NON-ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 313906 (NON-ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 505001 (NON-ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 585325 (NON-ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 481222 (NON-ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 411013 (NON-ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 277501 (NON-ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 251318 (ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 690539 (ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 627857 (ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 691519 (ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 416230 (ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 680505 (ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 577101 (ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 686576 (ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 586105 (ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+--- Test: 562102 (ODA) ---
+[UTSF DIAG] Delhivery (Shipshopy) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Delhivery (VL Cargo) checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+[UTSF DIAG] Safexpress checking 110020:
+  -> Zone in Master: N1
+  -> Mode: FULL_MINUS_EXCEPT
+  -> Exceptions Found in JSON? false
+  -> Is Global Exception? false
+  -> Final Result: SERVED
+  DB Schenker: Skipped (No Excel Data)
+
+Total Passed: 60
+Total Failed: 0
