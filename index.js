@@ -93,7 +93,7 @@ const STATIC_ALLOWED = [
   // Production
   "https://freight-compare-frontend.vercel.app",
   "https://transporter-signup.netlify.app",
-  "https://frontend-six-gamma-72.vercel.app/",
+  "https://frontend-six-gamma-72.vercel.app",
 
   // Development - keep these for local testing
   "http://localhost:3000",
