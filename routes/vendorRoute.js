@@ -5,6 +5,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
 import WheelseyePricing from '../model/wheelseyePricingModel.js';
+// import IndiaPostPricing from '../model/indiaPostPricingModel.js';
 import { calculateChargeableWeight, validateShipmentDetails } from '../utils/chargeableWeightService.js';
 import { calculateDistanceBetweenPincode } from '../utils/distanceService.js';
 dotenv.config();
@@ -31,6 +32,19 @@ try {
   }
 } catch (e) {
   console.error("[FTL] Failed to parse wheelseyeRates.json:", e.message);
+}
+
+// ---------- IndiaPost Blacklist loader ----------
+const blacklistPath = path.resolve(__dirname, "..", "data", "simple_transporter_blacklist.json");
+let indiaPostBlacklist = new Set();
+try {
+  if (fs.existsSync(blacklistPath)) {
+    const raw = fs.readFileSync(blacklistPath, "utf-8");
+    indiaPostBlacklist = new Set(JSON.parse(raw));
+    console.log(`[IndiaPost] Loaded ${indiaPostBlacklist.size} blacklisted pincodes`);
+  }
+} catch (e) {
+  console.error("[IndiaPost] Failed to load blacklist:", e.message);
 }
 
 // ---------- Column detection (tolerant to naming) ----------
@@ -190,7 +204,7 @@ router.post("/wheelseye-pricing", async (req, res) => {
     // If shipment_details provided, calculate chargeable weight in backend
     if (shipment_details && Array.isArray(shipment_details) && shipment_details.length > 0) {
       console.log('📦 Calculating chargeable weight from shipment details');
-      
+
       if (!validateShipmentDetails(shipment_details)) {
         return res.status(400).json({
           success: false,
@@ -200,7 +214,7 @@ router.post("/wheelseye-pricing", async (req, res) => {
 
       weightBreakdown = calculateChargeableWeight(shipment_details);
       chargeableWeight = weightBreakdown.chargeableWeight;
-      
+
       console.log('⚖️ Weight breakdown:', {
         actual: weightBreakdown.actualWeight,
         volumetric: weightBreakdown.volumetricWeight,
@@ -295,6 +309,122 @@ router.post("/wheelseye-distance", async (req, res) => {
     // Generic error
     console.error("Distance calculation error:", error.message);
     res.status(500).json({ error: "Distance calculation failed" });
+  }
+});
+
+
+
+// IndiaPost Business Parcel Official Tariff Algorithm
+function calculateIndiaPostPrice(weightKg, distanceKm) {
+  let basePrice = 0;
+  let addPrice = 0;
+
+  // Determine distance zone
+  if (distanceKm <= 50) {
+    // Local (assuming 0-50km as local)
+    basePrice = 45;
+    addPrice = 12;
+  } else if (distanceKm <= 475) {
+    basePrice = 55;
+    addPrice = 15;
+  } else if (distanceKm <= 1000) {
+    basePrice = 80;
+    addPrice = 30;
+  } else if (distanceKm <= 2000) {
+    basePrice = 100;
+    addPrice = 40;
+  } else {
+    basePrice = 115;
+    addPrice = 50;
+  }
+
+  let price = basePrice;
+  if (weightKg > 2) {
+    const extraWeight = Math.ceil(weightKg - 2);
+    price += (extraWeight * addPrice);
+  }
+
+  // Most postal tariffs don't include GST in the base output, 
+  // assuming standard flat rate calculation first.
+  return price;
+}
+
+// NEW ENDPOINT: IndiaPost Pricing (No MongoDB)
+router.post("/indiapost-pricing", async (req, res) => {
+  console.log('💡 IndiaPost pricing endpoint hit with body:', req.body);
+  try {
+    const { weight, distance, shipment_details, origin, destination } = req.body;
+
+    // Check Blacklist
+    if (origin && destination && (indiaPostBlacklist.has(String(origin)) || indiaPostBlacklist.has(String(destination)))) {
+      return res.status(403).json({
+        success: false,
+        message: 'IndiaPost does not serve these pincodes'
+      });
+    }
+
+    let chargeableWeight = weight;
+    let weightBreakdown = null;
+
+    if (shipment_details && Array.isArray(shipment_details) && shipment_details.length > 0) {
+      if (!validateShipmentDetails(shipment_details)) {
+        return res.status(400).json({ success: false, message: 'Invalid shipment details format' });
+      }
+      weightBreakdown = calculateChargeableWeight(shipment_details);
+      chargeableWeight = weightBreakdown.chargeableWeight;
+    } else if (!weight && (!shipment_details || !Array.isArray(shipment_details) || shipment_details.length === 0)) {
+      return res.status(400).json({ success: false, message: 'Either weight or shipment_details are required' });
+    }
+
+    if (!distance) return res.status(400).json({ success: false, message: 'Distance is required' });
+
+    const weightNum = parseFloat(chargeableWeight);
+    const distanceNum = parseFloat(distance);
+
+    if (isNaN(weightNum) || isNaN(distanceNum)) {
+      return res.status(400).json({ success: false, message: 'Weight and distance must be valid numbers' });
+    }
+
+    const calculatedPrice = calculateIndiaPostPrice(weightNum, distanceNum);
+
+    const response = {
+      success: true,
+      data: {
+        price: calculatedPrice,
+        matchedWeight: weightNum,
+        matchedDistance: distanceNum,
+        vehicle: "IndiaPost",
+        vendor: "IndiaPost"
+      }
+    };
+
+    if (weightBreakdown) response.weightBreakdown = weightBreakdown;
+
+    res.json(response);
+
+  } catch (error) {
+    console.error('Error getting IndiaPost pricing:', error);
+    res.status(500).json({ success: false, message: error.message || 'Internal server error' });
+  }
+});
+
+router.post("/indiapost-distance", async (req, res) => {
+  const { origin, destination } = req.body || {};
+  if (!origin || !destination) {
+    return res.status(400).json({ error: "origin and destination are required" });
+  }
+
+  // Check Blacklist
+  if (indiaPostBlacklist.has(String(origin)) || indiaPostBlacklist.has(String(destination))) {
+    return res.status(403).json({ error: "IndiaPost does not serve these pincodes" });
+  }
+
+  try {
+    const { distanceKm } = await calculateDistanceBetweenPincode(origin, destination);
+    res.json({ distanceKm, status: "OK" });
+  } catch (error) {
+    console.error("IndiaPost Distance calculation error:", error.message);
+    res.status(500).json({ error: error.message || "Distance calculation failed" });
   }
 });
 

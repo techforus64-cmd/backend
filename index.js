@@ -21,6 +21,8 @@ import vendorRoute from "./routes/vendorRoute.js";
 import freightRateRoute from "./routes/freightRateRoute.js";
 // Wheelseye Pricing routes
 import wheelseyePricingRoute from "./routes/wheelseyePricingRoute.js";
+// IndiaPost Pricing routes
+import indiaPostPricingRoute from "./routes/indiaPostPricingRoute.js";
 // ODA routes
 import odaRoute from "./routes/odaRoute.js";
 // ✅ NEW: Invoice charges routes (import at top)
@@ -208,6 +210,7 @@ app.use("/api/bidding", biddingRoute);
 app.use("/api/vendor", vendorRoute);
 app.use("/api/freight-rate", freightRateRoute);
 app.use("/api/wheelseye", wheelseyePricingRoute);
+app.use("/api/indiapost", indiaPostPricingRoute);
 app.use("/api/oda", odaRoute);
 
 // <-- DEV STUBS: add profile + dashboard endpoints (ensure these files exist)

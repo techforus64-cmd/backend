@@ -244,15 +244,15 @@ function computeCustomSurcharges(surcharges, baseFreight, chargeableWeight, stan
     .filter(s => s && s.enabled !== false)
     .sort((a, b) => (a.order || 99) - (b.order || 99))
     .reduce((acc, s) => {
-      const v  = Number(s.value)  || 0;
+      const v = Number(s.value) || 0;
       const v2 = Number(s.value2) || 0;
       switch (s.formula) {
-        case 'PCT_OF_BASE':     return acc + (v / 100) * baseFreight;
+        case 'PCT_OF_BASE': return acc + (v / 100) * baseFreight;
         case 'PCT_OF_SUBTOTAL': return acc + (v / 100) * standardSubtotal;
-        case 'FLAT':            return acc + v;
-        case 'PER_KG':          return acc + v * chargeableWeight;
-        case 'MAX_FLAT_PKG':    return acc + Math.max(v, v2 * chargeableWeight);
-        default:                return acc;
+        case 'FLAT': return acc + v;
+        case 'PER_KG': return acc + v * chargeableWeight;
+        case 'MAX_FLAT_PKG': return acc + Math.max(v, v2 * chargeableWeight);
+        default: return acc;
       }
     }, 0);
 }
@@ -3187,20 +3187,19 @@ export const searchTransporters = async (req, res) => {
     // UTSF MERGE & HOT-SWITCH
     // =========================================================
     const utsfResults = [];
-    if (customerID) {
-      const allUtsf = utsfService.getTransportersByCustomerId(customerID);
+    const allUtsf = utsfService.getAllTransporters();
 
-      // Filter by search query and approval status (only approved vendors)
-      for (const t of allUtsf) {
-        const utsfApproval = t.data.meta?.approvalStatus || 'pending';
-        if (utsfApproval !== 'approved') continue;
-        if (
-          searchRegex.test(t.companyName) ||
-          (t.vendorCode && searchRegex.test(t.vendorCode)) ||
-          (t.data.meta.email && searchRegex.test(t.data.meta.email))
-        ) {
-          utsfResults.push(t);
-        }
+    // Filter by search query and approval status (only approved vendors)
+    for (const t of allUtsf) {
+      const utsfApproval = t.data.meta?.approvalStatus || 'pending';
+      if (utsfApproval !== 'approved') continue;
+      if (
+        searchRegex.test(t.companyName) ||
+        (t.vendorCode && searchRegex.test(t.vendorCode)) ||
+        (t.data.meta?.email && searchRegex.test(t.data.meta.email)) ||
+        (t.data.meta?.contactPersonName && searchRegex.test(t.data.meta.contactPersonName))
+      ) {
+        utsfResults.push(t);
       }
     }
 
@@ -3420,7 +3419,7 @@ export const getSearchTransporterDetail = async (req, res) => {
     let vendor = null;
 
     // UTSF source
-    if (source === 'utsf' && customerID) {
+    if (source === 'utsf') {
       const t = utsfService.getTransporterById ? utsfService.getTransporterById(id) : null;
       if (t) {
         const zoneKeys = Object.keys(t.serviceability || {});
@@ -3465,7 +3464,17 @@ export const getSearchTransporterDetail = async (req, res) => {
             region: z.startsWith('NE') ? 'Northeast' : z.startsWith('N') ? 'North' : z.startsWith('S') ? 'South' : z.startsWith('E') ? 'East' : z.startsWith('W') ? 'West' : z.startsWith('C') ? 'Central' : 'Other',
             selectedStates: [], selectedCities: [], isComplete: true,
           })),
+          volumetricUnit: t.data?.pricing?.priceRate?.volumetricUnit || 'cm',
+          cftFactor: t.data?.pricing?.priceRate?.cftFactor || null,
+          charges: {
+            ...(t.data?.pricing?.priceRate || {}),
+            divisor: t.data?.pricing?.priceRate?.divisor || 5000,
+          },
+          priceChart: t.data?.pricing?.zoneRates || {},
+          invoiceValueCharges: t.data?.pricing?.priceRate?.invoiceValueCharges || {},
           serviceability: serviceabilityArr,
+          serviceabilityChecksum: t.data?.meta?.serviceabilityChecksum || '',
+          serviceabilitySource: 'utsf',
         };
       }
     }
