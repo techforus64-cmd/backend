@@ -16,7 +16,7 @@
  *   2. Or temporarily comment out the dev-skip in rateLimiter.js (line 68-70)
  */
 
-const BASE_URL = process.env.API_URL || 'http://localhost:8000';
+const BASE_URL = process.env.API_URL || 'https://backend-k9t6.onrender.com';
 
 // ─── Test Credentials ────────────────────────────────────────
 // UPDATE THESE with real accounts from your MongoDB

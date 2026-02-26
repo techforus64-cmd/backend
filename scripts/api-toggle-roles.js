@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'https://backend-k9t6.onrender.com';
 const BACKUP_FILE = 'scripts/api-role-backups.json';
 const TARGET_EMAILS = ['forus@gmail.com', 'singhabhudaya7@gmail.com'];
 
