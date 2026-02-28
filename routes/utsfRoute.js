@@ -300,8 +300,13 @@ router.post('/upload-json', async (req, res) => {
     }
     const filename = `${transporter.id}.utsf.json`;
     const filePath = path.join(utsfDir, filename);
-    fs.writeFileSync(filePath, JSON.stringify(utsfData, null, 2), 'utf8');
-    console.log(`[UTSF API] Saved to disk: ${filePath}`);
+    try {
+      fs.writeFileSync(filePath, JSON.stringify(utsfData, null, 2), 'utf8');
+      console.log(`[UTSF API] Saved to disk: ${filePath}`);
+    } catch (diskErr) {
+      console.error('[UTSF API] Disk write failed:', diskErr.message);
+      return res.status(500).json({ success: false, message: 'Failed to save UTSF file to disk', error: diskErr.message });
+    }
 
     // Save to MongoDB and sync memory from Mongo doc (ensures Mongo data is canonical)
     try {
@@ -1005,26 +1010,42 @@ router.get('/my-vendors', (req, res) => {
     const allTransporters = utsfService.getAllTransporters();
     const userTransporters = allTransporters
       .filter(t => t.customerID && String(t.customerID) === String(customerId))
-      .map(t => ({
-        _id: t.id,
-        companyName: t.companyName,
-        customerID: t.customerID,
-        transporterType: t.transporterType,
-        rating: t.rating,
-        isVerified: t.isVerified,
-        totalPincodes: t.totalPincodes,
-        integrityMode: t._data?.meta?.integrityMode || 'NONE',
-        softExclusions: t.getSoftExclusions().length,
-        source: 'UTSF',
-        createdAt: t._data?.meta?.created?.at || t._data?.meta?.createdAt || null,
-        updatedAt: t._data?.updates?.length > 0
-          ? t._data.updates[t._data.updates.length - 1].timestamp
-          : null,
-        pricing: t._data?.pricing ? {
-          priceRate: t._data.pricing.priceRate || {},
-          priceChart: t._data.pricing.priceChart || null
-        } : null
-      }));
+      .map(t => {
+        const meta = t._data?.meta || {};
+        return {
+          _id: t.id,
+          companyName: t.companyName,
+          customerID: t.customerID,
+          transporterType: t.transporterType,
+          rating: meta.rating ?? t.rating,
+          isVerified: t.isVerified,
+          totalPincodes: t.totalPincodes,
+          integrityMode: meta.integrityMode || 'NONE',
+          softExclusions: t.getSoftExclusions().length,
+          source: 'UTSF',
+          // meta fields for list card display
+          vendorCode: meta.vendorCode || null,
+          vendorPhone: meta.vendorPhone || null,
+          vendorEmail: meta.vendorEmail || null,
+          gstNo: meta.gstNo || null,
+          address: meta.address || null,
+          city: meta.city || null,
+          state: meta.state || null,
+          pincode: meta.pincode ? String(meta.pincode) : null,
+          mode: meta.transportMode || meta.mode || null,
+          serviceMode: meta.serviceMode || null,
+          contactPersonName: meta.contactPersonName || null,
+          subVendor: meta.subVendor || null,
+          createdAt: meta.created?.at || meta.createdAt || null,
+          updatedAt: meta.updatedAt || (t._data?.updates?.length > 0
+            ? t._data.updates[t._data.updates.length - 1].timestamp
+            : null),
+          pricing: t._data?.pricing ? {
+            priceRate: t._data.pricing.priceRate || {},
+            priceChart: t._data.pricing.priceChart || null
+          } : null
+        };
+      });
 
     res.json({
       success: true,
@@ -1087,17 +1108,30 @@ router.put('/my-vendors/:id', (req, res) => {
 
     // Apply allowed updates
     if (updates?.pricing) {
-      utsfData.pricing = { ...utsfData.pricing, ...updates.pricing };
+      // Deep merge priceRate so nested charge objects are preserved
+      if (updates.pricing.priceRate !== undefined) {
+        utsfData.pricing.priceRate = {
+          ...(utsfData.pricing.priceRate || {}),
+          ...updates.pricing.priceRate
+        };
+      }
+      // Merge other pricing keys (zoneRates, priceChart, etc.) shallowly
+      const { priceRate: _pr, ...otherPricing } = updates.pricing;
+      Object.assign(utsfData.pricing, otherPricing);
     }
     if (updates?.meta) {
-      // Only allow safe meta fields
-      const safeMeta = ['companyName', 'vendorCode', 'vendorPhone', 'vendorEmail',
-        'address', 'state', 'city', 'pincode', 'gstNo'];
+      // Allow all safe meta fields including contact, rating, subVendor
+      const safeMeta = [
+        'companyName', 'vendorCode', 'vendorPhone', 'vendorEmail',
+        'contactPersonName', 'address', 'state', 'city', 'pincode',
+        'gstNo', 'rating', 'subVendor', 'transportMode', 'serviceMode'
+      ];
       for (const key of safeMeta) {
         if (updates.meta[key] !== undefined) {
           utsfData.meta[key] = updates.meta[key];
         }
       }
+      utsfData.meta.updatedAt = new Date().toISOString();
     }
 
     // Audit trail
@@ -1111,7 +1145,11 @@ router.put('/my-vendors/:id', (req, res) => {
       snapshot: null
     });
 
-    fs.writeFileSync(filePath, JSON.stringify(utsfData, null, 2), 'utf8');
+    try {
+      fs.writeFileSync(filePath, JSON.stringify(utsfData, null, 2), 'utf8');
+    } catch (diskErr) {
+      return res.status(500).json({ success: false, message: 'Failed to save UTSF file to disk', error: diskErr.message });
+    }
 
     // Reload
     utsfService.reloadTransporter(id);
